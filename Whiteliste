@@ -10,11 +10,11 @@ cdn.ravenjs.com
 bit.ly
 axa.de
 aliexpress.com
-best.aliexpress.com
+*.aliexpress.com
 netflix.com
 nrdp.nccp.netflix.com
 customerevents.netflix.com
-ichnaea.netflix.com
+*.netflix.com
 erotik.markt.de
 *eronity.com*
 ae01.alicdn.com
@@ -26,7 +26,7 @@ cryptotab.net
 go-updater.brave.com
 laptop-updates.brave.com
 aax-eu.amazon-adsystem.com
-www.markt.de
+*.markt.de
 sonypmoglobal.d1.sc.omtrdc.net
 google.com
 audible.de
@@ -37,7 +37,6 @@ g.live.com
 sls.update.microsoft.com
 slscr.update.microsoft.com
 www.mamba.ru
-www.jae1club.com
 www.microsoft.com
 widgets.trustedshops.com
 poolnode.club
@@ -160,10 +159,10 @@ src.ebay-us.com
 gha.ebay.de
 smetrics.payback.de
 strato.de
-|image.email.barclaycard.de
+image.email.barclaycard.de
 telemetry.dropbox.com
 www.bitcoin.de
-|gdatasecurity.de
+gdatasecurity.de
 url2189.burgerme.de
 webshop.burgerme.de
 res.cloudinary.com
