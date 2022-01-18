@@ -1,6 +1,6 @@
 *selfhost.eu*
 amazon.de
-www.ecosia.org
+*.ecosia.org/*
 bittrex.com
 freebitco.in
 static1.freebitco.in
@@ -287,3 +287,7 @@ url1759.burgerme.de
 mandrillapp.com
 global.market.xiaomi.com
 *.xiaomi.com*
+*ulefone.com*
+*.sony.de*
+*.sony.com*
+*.sony.net*
