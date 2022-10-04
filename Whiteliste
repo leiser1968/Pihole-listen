@@ -353,4 +353,4 @@ userlocation.googleapis.com #Google Standort
 *.lgtvsdp.com
 *.philips-hue.com
 *.booking.com
-redirects.tradedoubler.com*
+*.redirects.tradedoubler.com*
