@@ -372,3 +372,4 @@ userlocation.googleapis.com #Google Standort
 @@||mads-eu.amazon.com^$important
 @@||de.watch.iot.mi.com
 @@||strava.com
+*.market.xiaomi.com*
