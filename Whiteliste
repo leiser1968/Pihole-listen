@@ -375,8 +375,9 @@ userlocation.googleapis.com #Google Standort
 *.market.xiaomi.com*
 *.keepa.com
 *.steampowered.com
+*.steam-chat.com
 *.steamstatic.com
-iot.shelly.cloud
+*.shelly.cloud
 api.hidrive.strato.com
 *.strato.com
 *.wunderground.com
@@ -385,4 +386,5 @@ api.hidrive.strato.com
 *.dropbox.com
 *.ecosia.org
 *.reddit.com
-*.h2980118.stratoserver.net*
+h2980118.stratoserver.net
+*.mywot.com
