@@ -2,6 +2,8 @@ adguard.com
 github.com
 *.hh-berlin.de
 *.hhdom.hh-berlin.de
+teams.events.data.microsoft.com
+*.teams.microsoft.com
 *.selfhost.eu*
 *.seki92-home.de*
 *.nhgnet.de*
