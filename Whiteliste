@@ -62,6 +62,7 @@ www.joyclub.de
 *.xhamster2.com
 www.sklavenzentrale.com
 www.schlagzeilen.com
+*.schlagzeilen.com
 @@||www.sklavenzentrale.com^$important
 *.gesext.de
 mein.gesext.de
