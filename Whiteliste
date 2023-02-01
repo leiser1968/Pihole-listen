@@ -3,6 +3,7 @@ github.com
 hh-berlin.de
 *.hh-berlin.de
 *.hhdom.hh-berlin.de
+*@hhdom.hh-berlin.de
 teams.events.data.microsoft.com
 *.teams.microsoft.com
 *.selfhost.eu*
