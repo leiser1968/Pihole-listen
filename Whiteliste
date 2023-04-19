@@ -464,10 +464,10 @@ browser-update.org
 *.amazon-adsystem.com
 *.spotify.com
 *.myfritz.net*
-ac0rnbl46pzg7u5f.myfritz.net
-myokpedjc2shnihj.myfritz.net
-ed6yvzfxyksvr74w.myfritz.net
-plim2ogkgozcfbdr.myfritz.net
+ac0rnbl46pzg7u5f.myfritz.net*
+myokpedjc2shnihj.myfritz.net*
+ed6yvzfxyksvr74w.myfritz.net*
+plim2ogkgozcfbdr.myfritz.net*
 *.hsforms.net
 *.hsforms.com
 *.amazontrust.com
