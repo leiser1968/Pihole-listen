@@ -2,6 +2,8 @@ adguard.com
 github.com
 *.selfhost.eu*
 *.seki92-home.de*
+*.dynv6.com*
+*.dynv6.net*
 *.solanaflix.com
 *.nhgnet.de*
 www.ebesucher.de
