@@ -1,6 +1,10 @@
 adguard.com
 github.com
 *.helium.com
+helium.com
+*.helium.io
+heliumtracker.io
+*.heliumfoundation.wtf
 *.selfhost.eu*
 *.seki92-home.de*
 *.dynv6.com*
