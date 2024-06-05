@@ -4,7 +4,7 @@ github.com
 helium.com
 *.helium.com/*
 *.helium.io
-heliumtracker.io
+Heliumtracker.io
 *.heliumfoundation.wtf
 *.solanaflix.com
 *.selfhost.eu*
@@ -16,15 +16,15 @@ heliumtracker.io
 joerg1968.synology.me
 joerg1968.direct.quickconnect.to
 www.ebesucher.de
-demo.terminkalender.top
+Demo.terminkalender.top
 *.amazon.de*
 aax-eu.amazon-adsystem.com
 *.amazonaws.com
 ecosia.org
 bittrex.com
-@@||www.emjcd.com^$important
-@@||www.tkqlhce.com^$important
-@@||t.me^$important
+@||www.emjcd.com^$wichtig
+@||www.tkqlhce.com^$wichtig
+@||t.me^$wichtig
 *.freebitco.in
 static1.freebitco.in
 *.ebesucher.de*
@@ -32,7 +32,7 @@ rover.ebay.com
 *.pinterest.com*
 *.pinterest.de*
 cdn.ravenjs.com
-bit.ly
+Etwas.
 axa.de
 *.elv.com
 *.aliexpress.com*
@@ -48,7 +48,7 @@ get3.adobe.com
 cryptobrowser.site
 cryptotab.net
 go-updater.brave.com
-laptop-updates.brave.com
+Laptop-updates.brave.com
 *.markt.de
 *.focus.de*
 sonypmoglobal.d1.sc.omtrdc.net
@@ -56,13 +56,13 @@ google.com
 *.audible.de
 ctldl.windowsupdate.com
 slscr.update.microsoft.com
-download.windowsupdate.com
+Download.windowsupdate.com
 g.live.com
 sls.update.microsoft.com
 slscr.update.microsoft.com
 www.mamba.ru
 www.microsoft.com
-widgets.trustedshops.com
+Widgets.trustedshops.com
 poolnode.club
 *.kaufmich.com
 *.poppen.de/*
@@ -452,7 +452,7 @@ s82i.app.link
 *.origin.com
 heartbeat.dm.origin.com
 plim2ogkgozcfbdr.myfritz.net
-steam-chat.com
+damp-chat.com
 *.steampowered.com
 *.spaceweatherlive.com
 piwheels.org
@@ -476,7 +476,7 @@ www.ojrq.net
 *.joyn.de
 Asset.conrad.com
 url1759.burgerme.de
-browser-update.org
+Browser-update.org
 *.amazon-adsystem.com
 *.spotify.com
 *.myfritz.net*
@@ -504,13 +504,13 @@ ciam.e-dis-netz.de
 r.bttn.io #Opera Cashback
 ad.dyntracker.de #Opera Cashback ELV
 *.crypto.com
-@@|| www.shareasale.com ^ $ wichtig
+@|| www.shareasale.com ^ $ wichtig
 crypto.com
 *.kucoin.com/*
 stockeback.go2cloud.org
 www.financeads.net
 *.computerwoche.de
-@@|| alitems.co ^ $ wichtig
+@|| alitems.co ^ $ wichtig
 *.outfittery.de
 telefonie.hh-berlin.de
 *.hhdom.hh-berlin.de
@@ -523,14 +523,15 @@ whatsapp.com
 www.banggood.com
 *.radarbox.com
 *.tuyacn.com
-history.google.com
-*.home-assistant.io
+Geschichte.google.com
+*.heimassistent.io
 *.dartsearch.net
 www.emjcd.com
-tracking.shopback.com
+Tracking.shopback.com
 *.nflxso.net
 *.nflxvideo.net
-temuaffiliateprogram.pxf.io
+temuaffiliateprogramm.pxf.io
+*.temu.com/*
 *.vpnunlimitedapp.com
-database.clamav.net/*
+Datenbank.clamav.net/*
 www.ashleymadison.com
