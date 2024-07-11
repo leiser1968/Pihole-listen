@@ -13,42 +13,17 @@ Helium-snapshots.nebra.com
 samen.helium.io
 Router.helium.io
 localruntime.heliumiot.com
-
-
 Update-Server:
-
 Miner.panther-x.io (spezifisch für Panther X2)
 cdn.panther-x.io
-
-
-Zeitsynchronisation:
-
 pool.ntp.org
-
-
-Blockchain-Synchronisierung:
-
 Blockchain.helium.io
-
-
-Firmware-Updates:
-
 ota.panther-x.io
-
-
-Diagnose und Überwachung:
-
 Diagnostiker.panther-x.io
-
-
-Allgemeine Dienste:
-
 google.com
 gstatic.com
 amazonaws.com
-
-
-*.sElfhost.eu*
+*.selfhost.eu*
 *.seki92-home.de*
 *.dynv6.com*
 *.dynv6.net*
