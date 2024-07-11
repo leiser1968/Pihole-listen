@@ -23,6 +23,14 @@ Diagnostiker.panther-x.io
 google.com
 gstatic.com
 amazonaws.com
+*.helium.io
+*.helium.com
+*.panther-x.io
+pool.ntp.org
+*.nebra.com
+*.amazonaws.com
+google.com
+gstatic.com
 *.selfhost.eu*
 *.seki92-home.de*
 *.dynv6.com*
