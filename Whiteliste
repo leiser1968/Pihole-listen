@@ -569,6 +569,7 @@ Freevee.com
 *.radarbox.com
 web.diagnostic.networking.aws.dev
 alexa.ioucys.cn
+api.honeygain.com
 *.temu.com
 *.shein.com
 *.cccamfox.com
@@ -594,5 +595,16 @@ maxdome.de
 kividoo.de
 honeygain.com
 *.honeygain.com
-api.honeygain.com
 cdn.honeygain.com
+freevee.com
+*.freevee.com
+amazon.com
+*.amazon.com
+amazon.de
+*.amazon.de
+amazonvideo.com
+*.amazonvideo.com
+amazon-adsystem.com
+*.amazon-adsystem.com
+amazonalexa.com
+*.amazonalexa.com
