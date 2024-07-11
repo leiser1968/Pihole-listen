@@ -1,4 +1,8 @@
-
+*.cloudflare.com
+*.githubusercontent.com
+*.akamaized.net
+*.cloudfront.net
+*.fastly.net
 adguard.com
 github.com
 *.helium.com
