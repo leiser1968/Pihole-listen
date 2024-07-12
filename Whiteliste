@@ -550,7 +550,6 @@ telefonie.hh-berlin.de
 whatsapp.com
 *.banggood.com
 www.banggood.com
-*.radarbox.com
 *.tuyacn.com
 Geschichte.google.com
 *.heimassistent.io
@@ -565,7 +564,6 @@ app.temu.com/*
 Datenbank.clamav.net/*
 www.ashleymadison.com
 news.bueromarkt-ag.de
-*.radarbox.com
 web.diagnostic.networking.aws.dev
 alexa.ioucys.cn
 api.honeygain.com
@@ -650,3 +648,10 @@ akamaihd.net
 *.akamaihd.net
 cloudfront.net
 *.cloudfront.net
+radarbox.com
+*.radarbox.com
+adsbexchange.com
+*.adsbexchange.com
+api.radarbox.com
+static.radarbox.com
+cdn.radarbox.com
