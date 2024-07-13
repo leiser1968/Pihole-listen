@@ -657,3 +657,48 @@ static.radarbox.com
 cdn.radarbox.com
 megatron.igraal.com
 api.eu-west-1.aiv-delivery.net
+# Amazon
+*.amazon.com
+*.amazon.de
+*.media-amazon.com
+*.amazonvideo.com
+*.amazonaws.com
+
+# Netflix
+*.netflix.com
+*.nflxvideo.net
+*.nflxso.net
+
+# SolanaFlix
+313589.solanaflix.com
+atlas.solanaflix.com
+
+# CCcamBox
+cccambox.com
+*.cccambox.com
+
+# Deutsche TV- und Streaming-Anbieter
+*.zdf.de
+*.ardmediathek.de
+*.joyn.de
+*.waipu.tv
+*.tvnow.de
+*.sky.de
+*.prosiebensat1digital.de
+*.kividoo.de
+
+# Tuya Smart Devices
+*.tuyaeu.com
+*.tuyaus.com
+*.tuyacn.com
+*.tuya.com
+
+# Homematic IP
+*.homematic.com
+
+# Android-Geräte (Google)
+*.google.com
+*.android.com
+*.gstatic.com
+*.googleapis.com
+*.googlesyndication.com
