@@ -694,7 +694,10 @@ cccambox.com
 *.tuya.com
 
 # Homematic IP
+homematic.com
 *.homematic.com
+pool.ntp.org
+*.cloudmatic.de
 
 # Android-Geräte (Google)
 *.google.com
