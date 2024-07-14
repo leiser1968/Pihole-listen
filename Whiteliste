@@ -702,3 +702,13 @@ cccambox.com
 *.gstatic.com
 *.googleapis.com
 *.googlesyndication.com
+
+# N-TV.de
+ntv.de
+video.ntv.de
+media.ntv.de
+cdn.jsdelivr.net
+fonts.googleapis.com
+fonts.gstatic.com
+ssl.p.jwpcdn.com
+api.jwplayer.com
