@@ -271,8 +271,9 @@ github.com
 *.opera.com*
 *.radarbox.com
 *.raspberrypi.org
-*.seki92-home.de/*
-*.selfhost.eu
+*.seki92-home.de*
+*.selfhost.eu*
+*.almisoft.de*
 *.shelly.cloud
 *.temu.com
 *.xiaomi.net
