@@ -3,8 +3,8 @@
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
 
 ## Arbeit-HH
-.hh-berlin.de
-.hhdom.hh-berlin.de
+*.hh-berlin.de
+*.hhdom.hh-berlin.de
 @hhdom.hh-berlin.de
 backupsrv.hhdom.hh-berlin.de
 db-server.hhdom.hh-berlin.de
