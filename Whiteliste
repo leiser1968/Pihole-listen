@@ -3,6 +3,7 @@
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
 
 ## Arbeit-HH
+.hh-berlin.de
 *.hh-berlin.de
 *.hhdom.hh-berlin.de
 @hhdom.hh-berlin.de
