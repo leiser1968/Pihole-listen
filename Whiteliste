@@ -1,4 +1,4 @@
-# AdGuard Whitelist
+3# AdGuard Whitelist
 # Diese Datei enthält alle erlaubten Domains für AdGuard.
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
 
@@ -104,7 +104,7 @@ joyn.de
 kividoo.de
 maxdome.de
 media.ntv.de
-ntv.de
+*.ntv.de
 pipe.skype.com
 primevideo.com
 rtlplus.de
