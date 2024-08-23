@@ -1,4 +1,4 @@
-3# AdGuard Whitelist
+## AdGuard Whitelist
 # Diese Datei enthält alle erlaubten Domains für AdGuard.
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
 
@@ -660,8 +660,8 @@ youtube.com
 ytimg.com
 Ökosia.org
 
-##Börse
+## Börse
 *.onvista.de
 
-##KI
+## KI
 *.chatgpt.com
