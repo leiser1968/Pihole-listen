@@ -661,9 +661,15 @@ youtube-nocookie.com
 youtube.com
 ytimg.com
 Ökosia.org
+*.yahoo.com
+api.onesignal.com
 
 ## Börse
 *.onvista.de
+*.traderepublic.com
 
 ## KI
 *.chatgpt.com
+
+## Sicherheit
+*.bitdefender.com
