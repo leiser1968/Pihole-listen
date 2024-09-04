@@ -3,7 +3,7 @@
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
 
 ## Arbeit-HH
-.hh-berlin.de
+. . dhh-berlin.de
 *.hh-berlin.de
 *.hhdom.hh-berlin.de
 @hhdom.hh-berlin.de
@@ -24,26 +24,26 @@ testsystem-pc.hhdom.hh-berlin.de
 wpad.hhdom.hh-berlin.de
 wsussrv.hhdom.hh-berlin.de
 
-## Social Media
+## Soziale Medien
 @||t.me^$wichtig
 t.me/*
 twitter.com
 
 ## E-Commerce
 *.ebesucher.de
-.aliexpress. .com*
-.aliexpress.com
-.amazon-adsystem.com
-.amazon.com
-.amazon.de
-.amazon.de*
-.amazonalexa.com
-.amazonaws. .com
-.amazonaws.com
-.amazonpreview.com
-.amazontrast.com
-.amazonvideo.com
-.media-amazon.com
+. .aliexpress. .com*
+. .aliexpress.com
+. .amazon-adsystem.com
+. .amazon.com
+. .amazon.de
+. .amazon.de*
+. .amazonalexa.com
+. .amazonaws.com
+. .amazonaws.com
+. .amazonpreview.com
+. .amazontrast.com
+. .amazonvideo.com
+. .media-amazon.com
 @||mads-eu.amazon.com^$wichtig
 Fertigstellung.amazon.com
 *.ebay.de
@@ -74,27 +74,27 @@ userlike-cdn-widgets.s3-eu-west-1.amazonaws.com
 www.amazon.com
 www.amazonpreview.com
 
-## Video Streaming
+## Videostreaming
 *.netflix.com
-.ardmediathek.de
-.crunchyroll.com
-.disneyplus.com
-.isney.com
-.freevee.com
-.funimation.com
-.hbomax.com
-.hulu.com
-.joyn.de
-.kividoo.de
-.maxdome.de
-.primevideo.com
-.prosiebensat1digital.de
-.rtlplus.de
-.sky.de
-.tvnow.de
-.waipu.tv
-.zattoo.com
-.zdf.de
+. .ardmediathek.de
+. .crunchyroll.com
+. .disneyplus.com
+. .isney.com
+. .freevee.com
+. .funimation.com
+. hbomax.com
+. .hulu.com
+. .joyn.de
+. .kividoo.de
+. .maxdome.de
+. .primevideo.com
+. .prosiebensat1digital.de
+. rtlplus.de
+. .sky.de
+. .tvnow.de
+. .waipu.tv
+. .zattoo.com
+. .zdf.de
 _https._tcp.repo.skype.com
 api.promotions.skype.com
 consumer.antitlement.skype.com
@@ -664,10 +664,10 @@ ytimg.com
 *.yahoo.com
 api.onesignal.com
 
-## Börse
+# Börse
 *.onvista.de
 *.traderepublic.com
-*.finanzen.net
+*.finanz.net
 
 ## KI
 *.chatgpt.com
