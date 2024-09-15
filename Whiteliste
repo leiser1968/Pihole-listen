@@ -272,7 +272,7 @@ github.com
 *.lgappstv.com
 *.myfritz.net*
 *.opera.com*
-*.wextap.com
+@@||wextap.com^$important
 *.shopback.com
 shopback.go2cloud.org
 *.radarbox.com
