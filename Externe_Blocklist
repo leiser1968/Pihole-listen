@@ -1,1 +1,13 @@
 https://raw.githubusercontent.com/ph00lt0/blocklists/master/blocklist.txt
+
+# StevenBlack’s Unified Hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+# AdGuard DNS filter
+https://filters.adtidy.org/extension/chromium/filters/11.txt
+
+# Disconnect.me
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+
+# EasyList
+https://easylist.to/easylist/easylist.txt
