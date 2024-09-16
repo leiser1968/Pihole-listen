@@ -168,7 +168,7 @@ www.hidrive.strato.com
 *.crypto.com
 *.helium.io
 *.panther-x.io
-.binance.com*
+*.binance.com*
 *.bittrex.com
 *.coinbase.com
 *.helium.com/*
