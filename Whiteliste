@@ -276,6 +276,7 @@ github.com
 *.opera.com*
 @@||wextap.com^$important
 *.shopback.com
+*.rakuten.com
 shopback.go2cloud.org
 *.radarbox.com
 *.raspberrypi.org
