@@ -229,6 +229,8 @@ www.shop-apotheke.com
 ## Alexa und Smart Devices
 *.lgtvsdp.com
 *.lgtvsdp.com
+lgtvonline.lge.com
+eic.cdpbeacon.lgtvcommon.com
 *.philips-hue.com
 *.tuya.com
 *.tuyacn.com
@@ -483,6 +485,7 @@ api.cortana.ai
 api.eu-west-1.aiv-delivery.net
 api.gameanalytics.com
 api.insight.netgear.com
+report.netgear.glassboxdigital.io
 api.jwplayer.com
 api.prod.boo.dating
 api.radarbox.com
