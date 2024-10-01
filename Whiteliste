@@ -219,11 +219,9 @@ www.ashleymadison.com
 *.swingerklub.de
 
 ## Dating
-cdn.internationalcupid.com
-cdn.thaicupid.com
-cdn.afrointroductions.com
-api.afrointroductions.com
-@@||www.afrointroductions.com^$important
+*.internationalcupid.com
+*.thaicupid.com
+*.afrointroductions.com
 
 ## Shopping
 *.shoop.de
