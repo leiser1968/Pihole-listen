@@ -223,7 +223,7 @@ cdn.internationalcupid.com
 cdn.thaicupid.com
 cdn.afrointroductions.com
 api.afrointroductions.com
-www.afrointroductions.com
+@@||www.afrointroductions.com^$important
 
 ## Shopping
 *.shoop.de
