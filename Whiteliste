@@ -31,6 +31,7 @@ twitter.com
 
 ## E-Commerce
 *.ebesucher.de
+speed.ganzoffen.de
 *.aliexpress.com/*
 login.aliexpress.com/buyer.htm
 www.aliexpress.com
@@ -49,7 +50,7 @@ www.aliexpress.com
 Fertigstellung.amazon.com
 *.ebay.de
 Mobileanalytics.us-east-1.amazonaws.com
-@@||alexa.eu.gateway.devices.a2z.com^$important
+@||alexa.eu.gateway.devices.a2z.com^$wichtig
 *.us-east-1.prod.service.minerva.devices.a2z.com
 Updates.amazon.com
 aax-eu.amazon-ad
