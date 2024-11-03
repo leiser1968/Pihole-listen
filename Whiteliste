@@ -256,6 +256,7 @@ alexa.ioucys.cn
 homematic.com
 api.stytch.com # Anmeldung groq.com
 @@||api.stytch.com^$important
+@@||elements.stytch.com^$important
 
 ## RadarBox
 *.rb24.com
