@@ -254,6 +254,7 @@ alexa.ioucys.cn
 *.homematic.com*
 @||de.watch.iot.mi.com
 homematic.com
+api.stytch.com # Anmeldung groq.com
 
 ## RadarBox
 *.rb24.com
