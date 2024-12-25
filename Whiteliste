@@ -383,6 +383,7 @@ global.quickconnect.to
 *.line-apps.com
 *.line.naver.jp
 *.lotto24.de
+@@||lotto24.de^$important
 *.lottohelden.de
 *.lovoo.com
 *.magenta.tv
