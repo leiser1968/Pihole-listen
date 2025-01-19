@@ -705,10 +705,13 @@ cta-service-cms2.hubspot.com
 newsletter.onvista.de
 paid.outbrain.com
 
-# Börse
+## Börse
 *.onvista.de
 *.traderepublic.com
 *.finanz.net
+
+## Lizenzen
+activation.easeus.com
 
 ## KI
 *.chatgpt.com
