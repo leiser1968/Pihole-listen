@@ -126,6 +126,9 @@ zdf.de
 streamingerror.rtl.de
 *.n-tv.de
 
+## Bördse
+*.traderepublic.com
+
 ## Search Engines
 *.ecosia.org
 *.google.com
