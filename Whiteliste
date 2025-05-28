@@ -2,6 +2,9 @@
 # Diese Datei enthält alle erlaubten Domains für AdGuard.
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
 
+## Begrenzte Zulassung
+# activity.windows.com
+
 ## Arbeit-HH
 hh-berlin.de/*
 *.hh-berlin.de
