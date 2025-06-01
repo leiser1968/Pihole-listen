@@ -5,6 +5,15 @@
 ## Begrenzte Zulassung
 # activity.windows.com
 
+## Aufruf Webseiten
+@@||streamingerror.rtl.de^$important
+@@||www.getmonero.org^$important
+@@||downloads.getmonero.org^$important
+@@||ntp.msn.com^$important
+@@||widgets.trustedshops.com^$important
+@@||api.sae.systems^$important
+@@||de.xtb.com^$important
+
 ## Arbeit-HH
 hh-berlin.de/*
 *.hh-berlin.de
