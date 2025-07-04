@@ -745,6 +745,12 @@ getfireshot.com
 *.acronis.com
 *.lottoland.com
 *.morgenpost.de
+@@||api.passport-photo.online^$important
+@@||analytics.picsart.com^$important
+@@||api.picsart.com^$important
+@@||www.lottoland.com^$important
+@@||join.worldoftanks.eu^$important
+@@||slackb.com^$important
 
 ## Flick
 *.aseko.com
