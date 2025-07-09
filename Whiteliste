@@ -242,6 +242,7 @@ mycrypto.com
 @@||sha256.eu.mine.zergpool.com^$important
 @@||miningpoolhub.com^$important
 @@||litecoin.miningpoolhub.com^$important
+*.cudo.org
 
 ## Spiele
 *.worldoftanks.eu
