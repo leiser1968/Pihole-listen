@@ -244,6 +244,8 @@ mycrypto.com
 @@||litecoin.miningpoolhub.com^$important
 *.cudo.org
 *.cudominer.com
+@@||trezor.io^$important
+
 
 ## Spiele
 *.worldoftanks.eu
