@@ -90,6 +90,7 @@ src.ebay-us.com
 userlike-cdn-widgets.s3-eu-west-1.amazonaws.com
 www.amazon.com
 www.amazonpreview.com
+@@||matomo.garmin.com^$important
 
 ## Chat
 @@||wa.me^$important
