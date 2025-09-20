@@ -142,6 +142,7 @@ zdf.de
 *.netzkino.de
 streamingerror.rtl.de
 *.n-tv.de
+@@||analytics.plex.tv^$important
 
 ## Bördse
 *.traderepublic.com
@@ -308,6 +309,7 @@ alexa.ioucys.cn
 ## KI und Haussteuerung
 *.heimassistent.io
 *.homematic.com*
+@@||analytics-api.home-assistant.io^$important
 @||de.watch.iot.mi.com
 homematic.com
 # Anmeldung groq.com
