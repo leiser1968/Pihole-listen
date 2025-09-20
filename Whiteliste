@@ -92,6 +92,18 @@
 @@||app.launchdarkly.com^$important
 @@||web-sdk.smartlook.com^$important
 
+@@||region1.app-measurement.com^$important
+@@||api.eu.amplitude.com^$important
+@@||sdk.iad-03.braze.com^$important
+@@||cdn.liftoff-creatives.io^$important
+@@||cdn-f.adsmoloco.com^$important
+@@||logs.ads.vungle.com^$important
+@@||cached-ad-b.fyber.com^$important
+@@||api.snapkit.com^$important
+@@||stun.voiparound.com^$important
+@@||fscdn.eppo.cloud^$important
+@@||analytics.avcdn.net^$important
+
 
 
 
