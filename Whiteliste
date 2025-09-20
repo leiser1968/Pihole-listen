@@ -14,19 +14,41 @@
 @@||api.sae.systems^$important
 @@||de.xtb.com^$important
 
-## GPT Zusatz
+## GPT Zusatz – Chat/Dating SDKs und Dienste
 @@||*.agora.io^$important
+@@||report-edge.agora.io^$important
+@@||ap3.agora.io^$important
+
 @@||mobile.confsettings.com^$important
 @@||edge.safedk.com^$important
 @@||*.mparticle.com^$important
 @@||api.instabug.com^$important
+
 @@||*.inner-active.mobi^$important
 @@||sdk-events.inner-active.mobi^$important
+@@||cdn2.inner-active.mobi^$important
+
 @@||gateway.unityads.unity3d.com^$important
 @@||applovin.com^$important
 @@||sts.applovin.com^$important
 @@||sdk.fra-01.braze.eu^$important
-# Amazon/Alexa – Grundfunktionen + Skills
+
+@@||api.adapty.io^$important
+
+@@||unif-id.ssp.inmobi.com^$important
+@@||config.inmobi.com^$important
+@@||i.l.inmobicdn.net^$important
+@@||i.l-new.inmobicdn.net^$important
+@@||telemetry.sdk.inmobi.com^$important
+@@||et-eus.w.inmobi.com^$important
+
+@@||freegeoip.app^$important
+
+@@||browser-intake-datadoghq.com^$important
+@@||sessions.bugsnag.com^$important
+@@||sentry.io^$important
+
+## Amazon/Alexa – Grundfunktionen + Skills
 @@||*.amazon.com^$important
 @@||*.amazon.de^$important
 @@||*.amazonaws.com^$important
@@ -37,6 +59,18 @@
 @@||device-metrics-us.amazon.com^$important
 @@||fls-eu.amazon.com^$important
 @@||alexa.eu.gateway.devices.a2z.com^$important
+
+## Home Assistant – wichtige APIs
+@@||alerts.home-assistant.io^$important
+@@||analytics-api.home-assistant.io^$important
+@@||firebaseremoteconfig.googleapis.com^$important
+
+## Grundlegende Geo/IP-Checks
+@@||ip-api.com^$important
+@@||ipify.org^$important
+@@||*.ipify.org^$important
+@@||api.ipbase.com^$important
+
 
 
 
