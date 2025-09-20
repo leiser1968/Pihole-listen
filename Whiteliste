@@ -71,6 +71,28 @@
 @@||*.ipify.org^$important
 @@||api.ipbase.com^$important
 
+@@||sr-client-cfg.eu.amplitude.com^$important
+@@||playamedia.exacdn.com^$important
+@@||a.playa.to^$important
+@@||tags.creativecdn.com^$important
+@@||stun.voiparound.com^$important
+@@||mobile-api.rokt.com^$important
+@@||venetia.iad.appboy.com^$important
+@@||sdk-assets.teads.tv^$important
+@@||cdn.teads.tv^$important
+@@||configv2.unityads.unity3d.com^$important
+@@||ae.iads.unity3d.com^$important
+@@||cdn.iads.unity3d.com^$important
+@@||i-sdk.mediation.unity3d.com^$important
+@@||o-sdk.mediation.unity3d.com^$important
+@@||config.ads.vungle.com^$important
+@@||cdn-lb.vungle.com^$important
+@@||sdk-api-v1.singular.net^$important
+@@||img.onesignal.com^$important
+@@||app.launchdarkly.com^$important
+@@||web-sdk.smartlook.com^$important
+
+
 
 
 
