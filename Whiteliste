@@ -115,7 +115,12 @@
 
 @@||cached-ad-a.fyber.com^$important
 @@||kontaktbox.de^$important
-chatproxy.knuddels.de
+@@||chatproxy.knuddels.de^$important
+@@||*.knuddels.de^$important
+@@||firebaseinstallations.googleapis.com^$important
+@@||firebaseremoteconfig.googleapis.com^$important
+@@||api.mixpanel.com^$important
+@@||cdn.mxpnl.com^$important
 
 @@||securepubads.g.doubleclick.net^$important
 @@||pubads.g.doubleclick.net^$important
