@@ -329,6 +329,72 @@
 @@||reddit.com^$important
 @@||redditstatic.com^$important
 
+## Basisfunktionen
+@@||n8n.io^$important
+@@||cdn.n8n.io^$important
+@@||n8n.cloud^$important
+@@||updates.n8n.io^$important
+@@||telemetry.n8n.io^$important   # optional – nur Statistik
+
+## Lokale Nutzung (z. B. http://localhost:5678)
+@@||localhost^$important
+@@||127.0.0.1^$important
+@@||::1^$important
+
+## Externe API-Zugriffe
+@@||api.openai.com^$important
+@@||api.anthropic.com^$important
+@@||api.openrouter.ai^$important
+@@||huggingface.co^$important
+@@||replicate.com^$important
+@@||api.telegram.org^$important
+@@||api.twilio.com^$important
+@@||graph.facebook.com^$important
+@@||discord.com^$important
+@@||slack.com^$important
+@@||hooks.slack.com^$important
+@@||api.github.com^$important
+@@||raw.githubusercontent.com^$important
+@@||gitlab.com^$important
+@@||jira.com^$important
+@@||api.notion.com^$important
+@@||api.dropboxapi.com^$important
+@@||content.dropboxapi.com^$important
+@@||drive.google.com^$important
+@@||www.googleapis.com^$important
+@@||sheets.googleapis.com^$important
+@@||graph.microsoft.com^$important
+@@||outlook.office365.com^$important
+@@||login.microsoftonline.com^$important
+@@||api.telegram.org^$important
+
+## Webhooks / HTTP Request Nodes
+@@||webhook.site^$important
+@@||webhookrelay.com^$important
+@@||webhookrelay.io^$important
+@@||ifttt.com^$important
+@@||make.com^$important
+@@||zapier.com^$important
+
+## Datei- und Cloud-Transfers
+@@||s3.amazonaws.com^$important
+@@||storage.googleapis.com^$important
+@@||content.dropboxapi.com^$important
+@@||transfer.sh^$important
+@@||file.io^$important
+
+## Authentifizierung / OAuth
+@@||accounts.google.com^$important
+@@||oauth2.googleapis.com^$important
+@@||login.microsoftonline.com^$important
+@@||identity.api.n8n.io^$important
+
+## Sicherheit / Zertifikate
+@@||ocsp.pki.goog^$important
+@@||crl.pki.goog^$important
+@@||letsencrypt.org^$important
+@@||acme-v02.api.letsencrypt.org^$important
+
 
 
 
