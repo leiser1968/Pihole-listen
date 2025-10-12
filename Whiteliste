@@ -395,6 +395,19 @@
 @@||letsencrypt.org^$important
 @@||acme-v02.api.letsencrypt.org^$important
 
+## Knuddels / CometChat Fix
+@@||cometchat.io^$important
+@@||metrics-eu.cometchat.io^$important
+@@||nexus-websocket-a.intercom.io^$important
+@@||api.intercom.io^$important
+@@||widget.intercom.io^$important
+@@||cdn.intercom.io^$important
+
+## SDK-Initialisierung (sicher)
+@@||shepherd.avcdn.net^$important
+@@||tag.adrsbl.io^$important
+
+
 
 
 
