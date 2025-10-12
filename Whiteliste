@@ -2,51 +2,82 @@
 # Diese Datei enthält alle erlaubten Domains für AdGuard.
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
 
-## Begrenzte Zulassung
-# activity.windows.com
-
-## Aufruf Webseiten
-@@||streamingerror.rtl.de^$important
-@@||www.getmonero.org^$important
-@@||downloads.getmonero.org^$important
-@@||ntp.msn.com^$important
-@@||widgets.trustedshops.com^$important
-@@||api.sae.systems^$important
-@@||de.xtb.com^$important
-
 ## GPT Zusatz – Chat/Dating SDKs und Dienste
 @@||*.agora.io^$important
 @@||report-edge.agora.io^$important
 @@||ap3.agora.io^$important
-
 @@||mobile.confsettings.com^$important
 @@||edge.safedk.com^$important
 @@||*.mparticle.com^$important
 @@||api.instabug.com^$important
-
 @@||*.inner-active.mobi^$important
-@@||sdk-events.inner-active.mobi^$important
 @@||cdn2.inner-active.mobi^$important
-
 @@||gateway.unityads.unity3d.com^$important
+@@||webview.unityads.unity3d.com^$important
+@@||configv2.unityads.unity3d.com^$important
+@@||ae.iads.unity3d.com^$important
+@@||cdn.iads.unity3d.com^$important
 @@||applovin.com^$important
 @@||sts.applovin.com^$important
 @@||sdk.fra-01.braze.eu^$important
-
+@@||sdk.iad-01.braze.com^$important
+@@||hiram.iad-03.braze.com^$important
 @@||api.adapty.io^$important
-
 @@||unif-id.ssp.inmobi.com^$important
 @@||config.inmobi.com^$important
 @@||i.l.inmobicdn.net^$important
 @@||i.l-new.inmobicdn.net^$important
 @@||telemetry.sdk.inmobi.com^$important
 @@||et-eus.w.inmobi.com^$important
-
 @@||freegeoip.app^$important
-
 @@||browser-intake-datadoghq.com^$important
 @@||sessions.bugsnag.com^$important
 @@||sentry.io^$important
+@@||sr-client-cfg.eu.amplitude.com^$important
+@@||api.eu.amplitude.com^$important
+@@||playamedia.exacdn.com^$important
+@@||a.playa.to^$important
+@@||tags.creativecdn.com^$important
+@@||us.creativecdn.com^$important
+@@||mobile-api.rokt.com^$important
+@@||venetia.iad.appboy.com^$important
+@@||sdk-assets.teads.tv^$important
+@@||cdn.teads.tv^$important
+@@||config.ads.vungle.com^$important
+@@||cdn-lb.vungle.com^$important
+@@||logs.ads.vungle.com^$important
+@@||sdk-api-v1.singular.net^$important
+@@||img.onesignal.com^$important
+@@||app.launchdarkly.com^$important
+@@||web-sdk.smartlook.com^$important
+@@||fscdn.eppo.cloud^$important
+@@||analytics.avcdn.net^$important
+@@||cached-ad-a.fyber.com^$important
+@@||cached-ad-b.fyber.com^$important
+@@||eventfnt-eu.dsp-api.moloco.com^$important
+@@||noti-eu.adsmoloco.com^$important
+@@||cdn.liftoff-creatives.io^$important
+@@||click.liftoff.io^$important
+@@||impression-east.liftoff.io^$important
+@@||cdn.liftoff.io^$important
+@@||matchgroup-tinder.adsbynimbus.com^$important
+@@||check-tcp.rayjump.com^$important
+@@||lazy-tcp.rayjump.com^$important
+@@||policy-tcp.rayjump.com^$important
+@@||configure-tcp.rayjump.com^$important
+@@||configure-tcp-android.mtgglobals.com^$important
+@@||cdn-adn-https.mtgglobals.com^$important
+@@||analytics-tcp.mintegral.net^$important
+@@||configure.rayjump.com^$important
+@@||check.rayjump.com^$important
+@@||lazy.rayjump.com^$important
+@@||policy.rayjump.com^$important
+@@||pok.mintegral.net^$important
+@@||*.nmrodam.com^$important
+@@||dl.asnapieu.com^$important
+@@||kontaktbox.de^$important
+@@||api.snapkit.com^$important
+@@||stun.voiparound.com^$important
 
 ## Amazon/Alexa – Grundfunktionen + Skills
 @@||*.amazon.com^$important
@@ -71,159 +102,67 @@
 @@||*.ipify.org^$important
 @@||api.ipbase.com^$important
 
-@@||sr-client-cfg.eu.amplitude.com^$important
-@@||playamedia.exacdn.com^$important
-@@||a.playa.to^$important
-@@||tags.creativecdn.com^$important
-@@||stun.voiparound.com^$important
-@@||mobile-api.rokt.com^$important
-@@||venetia.iad.appboy.com^$important
-@@||sdk-assets.teads.tv^$important
-@@||cdn.teads.tv^$important
-@@||configv2.unityads.unity3d.com^$important
-@@||ae.iads.unity3d.com^$important
-@@||cdn.iads.unity3d.com^$important
-@@||i-sdk.mediation.unity3d.com^$important
-@@||o-sdk.mediation.unity3d.com^$important
-@@||config.ads.vungle.com^$important
-@@||cdn-lb.vungle.com^$important
-@@||sdk-api-v1.singular.net^$important
-@@||img.onesignal.com^$important
-@@||app.launchdarkly.com^$important
-@@||web-sdk.smartlook.com^$important
-
-@@||region1.app-measurement.com^$important
-@@||api.eu.amplitude.com^$important
-@@||sdk.iad-03.braze.com^$important
-@@||cdn.liftoff-creatives.io^$important
-@@||cdn-f.adsmoloco.com^$important
-@@||logs.ads.vungle.com^$important
-@@||cached-ad-b.fyber.com^$important
-@@||api.snapkit.com^$important
-@@||stun.voiparound.com^$important
-@@||fscdn.eppo.cloud^$important
-@@||analytics.avcdn.net^$important
-
-@@||us.creativecdn.com^$important
-@@||tags.creativecdn.com^$important
-
-@@||click.liftoff.io^$important
-@@||cdn.liftoff-creatives.io^$important
-
-@@||eventfnt-eu.dsp-api.moloco.com^$important
-@@||noti-eu.adsmoloco.com^$important
-
-@@||cached-ad-a.fyber.com^$important
-@@||kontaktbox.de^$important
-@@||chatproxy.knuddels.de^$important
-@@||*.knuddels.de^$important
-@@||firebaseinstallations.googleapis.com^$important
-@@||firebaseremoteconfig.googleapis.com^$important
-@@||api.mixpanel.com^$important
-@@||cdn.mxpnl.com^$important
-
-@@||securepubads.g.doubleclick.net^$important
-@@||pubads.g.doubleclick.net^$important
-
-@@||consent.cookiebot.com^$important
-@@||api.usercentrics.eu^$important
-
-@@||stun.voiparound.com^$important
-@@||region1.app-measurement.com^$important
-@@||heapanalytics.com^$important
-
-@@||check-tcp.rayjump.com^$important
-@@||lazy-tcp.rayjump.com^$important
-@@||policy-tcp.rayjump.com^$important
-@@||configure-tcp.rayjump.com^$important
-@@||configure-tcp-android.mtgglobals.com^$important
-
-@@||pok.mintegral.net^$important
-@@||*.nmrodam.com^$important
-@@||dl.asnapieu.com^$important
-
-## Knuddels Kern
-@@||chatproxy.knuddels.de^$important
-@@||*.knuddels.de^$important
-
 ## Consent / Cookie / CMP
 @@||mobile-data.onetrust.io^$important
 @@||consentcdn.cookiebot.com^$important
+@@||api.usercentrics.eu^$important
 @@||aggregator.service.usercentrics.eu^$important
+@@||sdk.privacy-center.org^$important
 
 ## Push / Realtime / SDK Init
 @@||device-api.urbanairship.com^$important
 @@||remote-data.urbanairship.com^$important
-@@||webview.unityads.unity3d.com^$important
 @@||events.ads.vungle.com^$important
 
 ## Attribution / Fraud / Featureflags
 @@||api3.siftscience.com^$important
 @@||tps.doubleverify.com^$important
-@@||sdk.iad-01.braze.com^$important
-@@||hiram.iad-03.braze.com^$important
 
-## Lovoo/Tinder Werbe-/Creative-Pfade (App-Start hängt hier oft)
-@@||impression-east.liftoff.io^$important
-@@||cdn.liftoff.io^$important
-@@||matchgroup-tinder.adsbynimbus.com^$important
-
-## Mintegral / RayJump Kette (SDK-Init)
-@@||cdn-adn-https.mtgglobals.com^$important
-@@||analytics-tcp.mintegral.net^$important
-@@||configure.rayjump.com^$important
-@@||check.rayjump.com^$important
-@@||lazy.rayjump.com^$important
-@@||policy.rayjump.com^$important
-
-## Optional – nur falls Login via Facebook (danach ggf. wieder rausnehmen)
-@@||web.facebook.com^$important
-@@||chat-e2ee-mini.facebook.com^$important
-@@||edge-mqtt-fallback.facebook.com^$important
-
-## Lovepoint – Domain freigeben
-@@||www.lovepoint.de^$important
-@@||*.lovepoint.de^$important
-
-## Knuddels – App/Web-Loader/Google Beacons
+## Knuddels Kern
 @@||chatproxy.knuddels.de^$important
 @@||*.knuddels.de^$important
-@@||beacons.gvt2.com^$important
-@@||beacons.gcp.gvt2.com^$important
-
-## Consent/CMP (ohne Consent bleibt oft alles hängen)
-@@||sdk.privacy-center.org^$important
-@@||consentcdn.cookiebot.com^$important
-
-@@||analytics.plex.tv^$important
-@@||analytics-api.home-assistant.io^$important
-
-@@||ip-api.com^$important
-@@||ipify.org^$important
-@@||*.ipify.org^$important
-@@||api.ipbase.com^$important
-
-@@||static.xx.fbcdn.net^$important
-@@||*.fbcdn.net^$important
-@@||*.cdninstagram.com^$important
-
-@@||api-eu.mixpanel.com^$important
-@@||app-measurement.com^$important
-
+@@||firebaseinstallations.googleapis.com^$important
+@@||api.mixpanel.com^$important
+@@||cdn.mxpnl.com^$important
 @@||beacons.gvt2.com^$important
 @@||beacons.gcp.gvt2.com^$important
 @@||beacons5.gvt3.com^$important
 @@||*.gvt3.com^$important
 
-@@||knuddels.de^$important
-@@||*.knuddels.de^$important
+## Lovepoint
+@@||www.lovepoint.de^$important
+@@||*.lovepoint.de^$important
 
+## Optional – Facebook Login
+@@||web.facebook.com^$important
+@@||chat-e2ee-mini.facebook.com^$important
+@@||edge-mqtt-fallback.facebook.com^$important
+
+## Basis-CDNs / Media
 @@||*.cloudfront.net^$important
+@@||*.cdninstagram.com^$important
+@@||*.fbcdn.net^$important
 @@||net.mtgglobals.com^$important
+@@||app-measurement.com^$important
+@@||analytics.plex.tv^$important
 
 
 
 
+
+
+
+## Begrenzte Zulassung
+# activity.windows.com
+
+## Aufruf Webseiten
+@@||streamingerror.rtl.de^$important
+@@||www.getmonero.org^$important
+@@||downloads.getmonero.org^$important
+@@||ntp.msn.com^$important
+@@||widgets.trustedshops.com^$important
+@@||api.sae.systems^$important
+@@||de.xtb.com^$important
 
 ## Arbeit-HH
 hh-berlin.de/*
