@@ -181,6 +181,46 @@
 @@||chat-e2ee-mini.facebook.com^$important
 @@||edge-mqtt-fallback.facebook.com^$important
 
+## Lovepoint – Domain freigeben
+@@||www.lovepoint.de^$important
+@@||*.lovepoint.de^$important
+
+## Knuddels – App/Web-Loader/Google Beacons
+@@||chatproxy.knuddels.de^$important
+@@||*.knuddels.de^$important
+@@||beacons.gvt2.com^$important
+@@||beacons.gcp.gvt2.com^$important
+
+## Consent/CMP (ohne Consent bleibt oft alles hängen)
+@@||sdk.privacy-center.org^$important
+@@||consentcdn.cookiebot.com^$important
+
+@@||analytics.plex.tv^$important
+@@||analytics-api.home-assistant.io^$important
+
+@@||ip-api.com^$important
+@@||ipify.org^$important
+@@||*.ipify.org^$important
+@@||api.ipbase.com^$important
+
+@@||static.xx.fbcdn.net^$important
+@@||*.fbcdn.net^$important
+@@||*.cdninstagram.com^$important
+
+@@||api-eu.mixpanel.com^$important
+@@||app-measurement.com^$important
+
+@@||beacons.gvt2.com^$important
+@@||beacons.gcp.gvt2.com^$important
+@@||beacons5.gvt3.com^$important
+@@||*.gvt3.com^$important
+
+@@||knuddels.de^$important
+@@||*.knuddels.de^$important
+
+@@||*.cloudfront.net^$important
+@@||net.mtgglobals.com^$important
+
 
 
 
