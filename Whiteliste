@@ -142,6 +142,48 @@
 @@||*.nmrodam.com^$important
 @@||dl.asnapieu.com^$important
 
+## Knuddels Kern
+@@||chatproxy.knuddels.de^$important
+@@||*.knuddels.de^$important
+
+## Consent / Cookie / CMP
+@@||mobile-data.onetrust.io^$important
+@@||consentcdn.cookiebot.com^$important
+@@||aggregator.service.usercentrics.eu^$important
+
+## Push / Realtime / SDK Init
+@@||device-api.urbanairship.com^$important
+@@||remote-data.urbanairship.com^$important
+@@||webview.unityads.unity3d.com^$important
+@@||events.ads.vungle.com^$important
+
+## Attribution / Fraud / Featureflags
+@@||api3.siftscience.com^$important
+@@||tps.doubleverify.com^$important
+@@||sdk.iad-01.braze.com^$important
+@@||hiram.iad-03.braze.com^$important
+
+## Lovoo/Tinder Werbe-/Creative-Pfade (App-Start hängt hier oft)
+@@||impression-east.liftoff.io^$important
+@@||cdn.liftoff.io^$important
+@@||matchgroup-tinder.adsbynimbus.com^$important
+
+## Mintegral / RayJump Kette (SDK-Init)
+@@||cdn-adn-https.mtgglobals.com^$important
+@@||analytics-tcp.mintegral.net^$important
+@@||configure.rayjump.com^$important
+@@||check.rayjump.com^$important
+@@||lazy.rayjump.com^$important
+@@||policy.rayjump.com^$important
+
+## Optional – nur falls Login via Facebook (danach ggf. wieder rausnehmen)
+@@||web.facebook.com^$important
+@@||chat-e2ee-mini.facebook.com^$important
+@@||edge-mqtt-fallback.facebook.com^$important
+
+
+
+
 
 ## Arbeit-HH
 hh-berlin.de/*
