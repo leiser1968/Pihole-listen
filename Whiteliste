@@ -146,8 +146,188 @@
 @@||app-measurement.com^$important
 @@||analytics.plex.tv^$important
 
+## Breeze
+@@||breeze.app^$important
+@@||api.breeze.app^$important
+@@||cdn.breeze.app^$important
+@@||firebaseremoteconfig.googleapis.com^$important
 
+## OkCupid (Match Group)
+@@||api.okcupid.com^$important
+@@||okcimg.com^$important
+@@||cdn.okcimg.com^$important
+@@||cdn.okcupid.com^$important
+@@||matchgroup-tinder.adsbynimbus.com^$important   # bereits genutzt für Tinder
 
+## WooPlus
+@@||api.wooplus.com^$important
+@@||cdn.wooplus.com^$important
+@@||img.wooplus.com^$important
+@@||wooplusapp.s3.amazonaws.com^$important
+
+## Poppen.de
+@@||www.poppen.de^$important
+@@||static.poppen.de^$important
+@@||cdn.poppen.de^$important
+@@||consent.poppen.de^$important
+@@||usercentrics.eu^$important
+
+## JoyClub / Joyce
+@@||joyclub.de^$important
+@@||cdn.joyclub.de^$important
+@@||consent.joyclub.de^$important
+@@||firebaseinstallations.googleapis.com^$important
+
+## FetLife / Fet
+@@||fetlife.com^$important
+@@||cdn.fetlife.com^$important
+@@||static.fetlife.com^$important
+
+## C-Date / Be2-Gruppe
+@@||www.c-date.de^$important
+@@||cdn.c-date.net^$important
+@@||consent.c-date.de^$important
+@@||api.be2.com^$important
+
+## Bildkontakte
+@@||www.bildkontakte.de^$important
+@@||cdn.bildkontakte.de^$important
+@@||consent.bildkontakte.de^$important
+
+## Finya
+@@||www.finya.de^$important
+@@||cdn.finya.de^$important
+@@||consent.finya.de^$important
+@@||firebaseinstallations.googleapis.com^$important
+
+## Spin.de
+@@||www.spin.de^$important
+@@||cdn.spin.de^$important
+@@||media.spin.de^$important
+@@||chat.spin.de^$important
+
+## Hinge (gehört ebenfalls Match Group)
+@@||api.hingeapp.com^$important
+@@||cdn.hingeapp.com^$important
+@@||firebaseremoteconfig.googleapis.com^$important
+
+## Meetup
+@@||www.meetup.com^$important
+@@||api.meetup.com^$important
+@@||static2.meetupstatic.com^$important
+@@||secure.meetupstatic.com^$important
+@@||consentcdn.cookiebot.com^$important
+
+## Telegram (wenn per DNS blockiert)
+@@||web.telegram.org^$important
+@@||t.me^$important
+@@||telegram.me^$important
+@@||telegram.org^$important
+@@||cdn4.telegram-cdn.org^$important
+@@||cdn5.telegram-cdn.org^$important
+@@||cdn6.telegram-cdn.org^$important
+@@||api.telegram.org^$important
+
+## ❤️ Allgemeine Dating-Portale
+@@||finya.de^$important
+@@||cdn.finya.de^$important
+@@||okcupid.com^$important
+@@||cdn.okcimg.com^$important
+@@||tinder.com^$important
+@@||cdn.tinder.com^$important
+@@||bumble.com^$important
+@@||cdn.bumble.com^$important
+@@||lovoo.com^$important
+@@||cdn.lovoo.com^$important
+@@||badoo.com^$important
+@@||cdn.badoo.com^$important
+@@||hingeapp.com^$important
+@@||api.hingeapp.com^$important
+@@||parship.de^$important
+@@||cdn.parship.de^$important
+@@||elitepartner.de^$important
+@@||cdn.elitepartner.de^$important
+@@||edarling.de^$important
+@@||cdn.edarling.de^$important
+@@||bildkontakte.de^$important
+@@||cdn.bildkontakte.de^$important
+@@||spin.de^$important
+@@||cdn.spin.de^$important
+@@||jaumo.com^$important
+@@||cdn.jaumo.com^$important
+@@||once.app^$important
+@@||api.once.app^$important
+@@||wooplus.com^$important
+@@||cdn.wooplus.com^$important
+@@||gocrush.de^$important
+@@||cdn.gocrush.de^$important
+@@||lovescout24.de^$important
+@@||neu.de^$important
+@@||lemonswan.de^$important
+@@||zweisam.de^$important
+@@||datingcafe.de^$important
+@@||meet5.app^$important
+@@||cdn.meet5.app^$important
+@@||blindmate.app^$important
+@@||boo.app^$important
+
+## 🔥 Casual-Dating / Erotik-Portale
+@@||c-date.de^$important
+@@||cdn.c-date.net^$important
+@@||joyclub.de^$important
+@@||cdn.joyclub.de^$important
+@@||poppen.de^$important
+@@||cdn.poppen.de^$important
+@@||firstaffair.com^$important
+@@||lovepoint.de^$important
+@@||cdn.lovepoint.de^$important
+@@||secret.de^$important
+@@||gelegenheitssex.com^$important
+@@||casualdatingclub.de^$important
+@@||erotikkontakte24.de^$important
+@@||wilddate.de^$important
+@@||erotikpur.de^$important
+@@||datingsecret.de^$important
+@@||affaire.com^$important
+@@||lustwiese.com^$important
+@@||mysecret.de^$important
+@@||ashleymadison.com^$important
+@@||victoriamilan.de^$important
+@@||onlydates.de^$important
+
+## 💬 Internationale & alternative Apps
+@@||fetlife.com^$important
+@@||cdn.fetlife.com^$important
+@@||kinkd.app^$important
+@@||breeze.app^$important
+@@||chat-and-yamo.com^$important
+@@||clover.co^$important
+@@||pure.app^$important
+@@||happn.com^$important
+@@||meetme.com^$important
+@@||tagged.com^$important
+@@||mamba.ru^$important
+@@||hily.app^$important
+@@||her.app^$important
+@@||feeld.co^$important
+
+## 🧭 Regionale & Community-Plattformen
+@@||meetup.com^$important
+@@||api.meetup.com^$important
+@@||static2.meetupstatic.com^$important
+@@||secure.meetupstatic.com^$important
+@@||telegram.org^$important
+@@||api.telegram.org^$important
+@@||web.telegram.org^$important
+@@||t.me^$important
+@@||telegram.me^$important
+@@||cdn4.telegram-cdn.org^$important
+@@||cdn5.telegram-cdn.org^$important
+@@||cdn6.telegram-cdn.org^$important
+@@||facebook.com^$important
+@@||fbcdn.net^$important
+@@||reddit.com^$important
+@@||redditstatic.com^$important
 
 
 
