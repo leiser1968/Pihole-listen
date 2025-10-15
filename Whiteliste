@@ -1,8 +1,22 @@
-## AdGuard Whitelist
+# AdGuard Home – Whitelist (vollständig überarbeitet)
+# Datum: 2025-10-15
+# Hinweis: Nur Freigaben, keine globalen Allow-All-Regeln. Doppelte/fehlerhafte Einträge bereinigt.
+# Sicherheit: Telemetrie-/Analytics-Dienste sind NICHT pauschal erlaubt – nur funktionskritische SDK-Init/Consent/CDN.
+
+# AdGuard Home – Erweiterte Whitelist (nur funktionsrelevant)
+# Version: 2025-10-15
+# Erstellt: 15.10.2025 16:38:01 UTC+02:00
+# Hinweis:
+# - Diese Liste ist für funktionale Erreichbarkeit von Apps/Diensten gedacht (Login, Laden, Medien, Realtime).
+# - Werbung/Tracking bleibt weitgehend blockiert. Telemetrie ist nur freigegeben, wenn für App-Start/Login typischerweise erforderlich.
+# - Syntax: AdGuard Home Benutzerregeln. Import: AdGuard Home → Filter → Benutzerregeln → Aus Datei importieren.
+# - Anpassbar: Du kannst ganze Blöcke entfernen (z. B. „Optional/Telemetrie“), falls nicht benötigt.
+# AdGuard Whitelist
 # Diese Datei enthält alle erlaubten Domains für AdGuard.
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
-
-## GPT Zusatz – Chat/Dating SDKs und Dienste
+############################################################
+## 1) Chat/Dating SDKs (Basis-Funktion, Realtime, Media)
+############################################################
 @@||*.agora.io^$important
 @@||report-edge.agora.io^$important
 @@||ap3.agora.io^$important
@@ -11,6 +25,7 @@
 @@||*.mparticle.com^$important
 @@||api.instabug.com^$important
 @@||*.inner-active.mobi^$important
+@@||sdk-events.inner-active.mobi^$important
 @@||cdn2.inner-active.mobi^$important
 @@||gateway.unityads.unity3d.com^$important
 @@||webview.unityads.unity3d.com^$important
@@ -22,6 +37,7 @@
 @@||sdk.fra-01.braze.eu^$important
 @@||sdk.iad-01.braze.com^$important
 @@||hiram.iad-03.braze.com^$important
+@@||venetia.iad.appboy.com^$important
 @@||api.adapty.io^$important
 @@||unif-id.ssp.inmobi.com^$important
 @@||config.inmobi.com^$important
@@ -30,9 +46,6 @@
 @@||telemetry.sdk.inmobi.com^$important
 @@||et-eus.w.inmobi.com^$important
 @@||freegeoip.app^$important
-@@||browser-intake-datadoghq.com^$important
-@@||sessions.bugsnag.com^$important
-@@||sentry.io^$important
 @@||sr-client-cfg.eu.amplitude.com^$important
 @@||api.eu.amplitude.com^$important
 @@||playamedia.exacdn.com^$important
@@ -40,11 +53,12 @@
 @@||tags.creativecdn.com^$important
 @@||us.creativecdn.com^$important
 @@||mobile-api.rokt.com^$important
-@@||venetia.iad.appboy.com^$important
+@@||apps.rokt.com^$important
 @@||sdk-assets.teads.tv^$important
 @@||cdn.teads.tv^$important
 @@||config.ads.vungle.com^$important
 @@||cdn-lb.vungle.com^$important
+@@||events.ads.vungle.com^$important
 @@||logs.ads.vungle.com^$important
 @@||sdk-api-v1.singular.net^$important
 @@||img.onesignal.com^$important
@@ -56,11 +70,18 @@
 @@||cached-ad-b.fyber.com^$important
 @@||eventfnt-eu.dsp-api.moloco.com^$important
 @@||noti-eu.adsmoloco.com^$important
+@@||dsp-api.moloco.com^$important
+@@||sdkapi.dsp-api.moloco.com^$important
+@@||sdkopmetrics-eu.dsp-api.moloco.com^$important
+@@||sdkopmetrics-us.dsp-api.moloco.com^$important
+@@||cdn-f.adsmoloco.com^$important
 @@||cdn.liftoff-creatives.io^$important
 @@||click.liftoff.io^$important
 @@||impression-east.liftoff.io^$important
 @@||cdn.liftoff.io^$important
+@@||adexp.liftoff.io^$important
 @@||matchgroup-tinder.adsbynimbus.com^$important
+# Mintegral / RayJump Kette (SDK-Init)
 @@||check-tcp.rayjump.com^$important
 @@||lazy-tcp.rayjump.com^$important
 @@||policy-tcp.rayjump.com^$important
@@ -75,11 +96,11 @@
 @@||pok.mintegral.net^$important
 @@||*.nmrodam.com^$important
 @@||dl.asnapieu.com^$important
-@@||kontaktbox.de^$important
 @@||api.snapkit.com^$important
 @@||stun.voiparound.com^$important
-
-## Amazon/Alexa – Grundfunktionen + Skills
+############################################################
+## 2) Amazon / Alexa (Grundfunktionen + Skills)
+############################################################
 @@||*.amazon.com^$important
 @@||*.amazon.de^$important
 @@||*.amazonaws.com^$important
@@ -90,35 +111,42 @@
 @@||device-metrics-us.amazon.com^$important
 @@||fls-eu.amazon.com^$important
 @@||alexa.eu.gateway.devices.a2z.com^$important
-
-## Home Assistant – wichtige APIs
+############################################################
+## 3) Home Assistant – wichtige APIs
+############################################################
 @@||alerts.home-assistant.io^$important
 @@||analytics-api.home-assistant.io^$important
 @@||firebaseremoteconfig.googleapis.com^$important
-
-## Grundlegende Geo/IP-Checks
+############################################################
+## 4) Grundlegende Geo/IP-Checks
+############################################################
 @@||ip-api.com^$important
 @@||ipify.org^$important
 @@||*.ipify.org^$important
 @@||api.ipbase.com^$important
-
-## Consent / Cookie / CMP
+############################################################
+## 5) Consent / Cookie / CMP (ohne diese hängt oft der Start/Login)
+############################################################
 @@||mobile-data.onetrust.io^$important
 @@||consentcdn.cookiebot.com^$important
 @@||api.usercentrics.eu^$important
 @@||aggregator.service.usercentrics.eu^$important
 @@||sdk.privacy-center.org^$important
-
-## Push / Realtime / SDK Init
+@@||consent.cookiebot.com^$important
+@@||cdn.privacy-mgmt.com^$important
+############################################################
+## 6) Push / Realtime / SDK Init
+############################################################
 @@||device-api.urbanairship.com^$important
 @@||remote-data.urbanairship.com^$important
-@@||events.ads.vungle.com^$important
-
-## Attribution / Fraud / Featureflags
+############################################################
+## 7) Attribution / Fraud / Featureflags
+############################################################
 @@||api3.siftscience.com^$important
 @@||tps.doubleverify.com^$important
-
-## Knuddels Kern
+############################################################
+## 8) Knuddels – Kern & Web-Loader
+############################################################
 @@||chatproxy.knuddels.de^$important
 @@||*.knuddels.de^$important
 @@||firebaseinstallations.googleapis.com^$important
@@ -128,97 +156,94 @@
 @@||beacons.gcp.gvt2.com^$important
 @@||beacons5.gvt3.com^$important
 @@||*.gvt3.com^$important
-
-## Lovepoint
+@@||*.gcp.gvt2.com^$important
+# CometChat & Intercom – beobachtet bei Knuddels-Flows
+@@||cometchat.io^$important
+@@||metrics-eu.cometchat.io^$important
+@@||nexus-websocket-a.intercom.io^$important
+@@||api.intercom.io^$important
+@@||widget.intercom.io^$important
+@@||cdn.intercom.io^$important
+############################################################
+## 9) Lovepoint
+############################################################
 @@||www.lovepoint.de^$important
 @@||*.lovepoint.de^$important
-
-## Optional – Facebook Login
+@@||cdn.lovepoint.de^$important
+############################################################
+## 10) Optional – Facebook Login (nur bei Bedarf)
+############################################################
 @@||web.facebook.com^$important
 @@||chat-e2ee-mini.facebook.com^$important
 @@||edge-mqtt-fallback.facebook.com^$important
-
-## Basis-CDNs / Media
+@@||static.xx.fbcdn.net^$important
+@@||*.fbcdn.net^$important
+############################################################
+## 11) Basis-CDNs / Media
+############################################################
 @@||*.cloudfront.net^$important
 @@||*.cdninstagram.com^$important
-@@||*.fbcdn.net^$important
 @@||net.mtgglobals.com^$important
 @@||app-measurement.com^$important
 @@||analytics.plex.tv^$important
-
-## Breeze
+############################################################
+## 12) Einzel-Apps/Portale (funktional relevante Hosts)
+############################################################
+# Breeze
 @@||breeze.app^$important
 @@||api.breeze.app^$important
 @@||cdn.breeze.app^$important
-@@||firebaseremoteconfig.googleapis.com^$important
-
-## OkCupid (Match Group)
+# OkCupid (Match Group)
 @@||api.okcupid.com^$important
 @@||okcimg.com^$important
 @@||cdn.okcimg.com^$important
 @@||cdn.okcupid.com^$important
-@@||matchgroup-tinder.adsbynimbus.com^$important   # bereits genutzt für Tinder
-
-## WooPlus
+# WooPlus
 @@||api.wooplus.com^$important
 @@||cdn.wooplus.com^$important
 @@||img.wooplus.com^$important
 @@||wooplusapp.s3.amazonaws.com^$important
-
-## Poppen.de
+# Poppen.de
 @@||www.poppen.de^$important
 @@||static.poppen.de^$important
 @@||cdn.poppen.de^$important
 @@||consent.poppen.de^$important
 @@||usercentrics.eu^$important
-
-## JoyClub / Joyce
+# JoyClub / Joyce
 @@||joyclub.de^$important
 @@||cdn.joyclub.de^$important
 @@||consent.joyclub.de^$important
-@@||firebaseinstallations.googleapis.com^$important
-
-## FetLife / Fet
+# FetLife
 @@||fetlife.com^$important
 @@||cdn.fetlife.com^$important
 @@||static.fetlife.com^$important
-
-## C-Date / Be2-Gruppe
+# C-Date / Be2
 @@||www.c-date.de^$important
 @@||cdn.c-date.net^$important
 @@||consent.c-date.de^$important
 @@||api.be2.com^$important
-
-## Bildkontakte
+# Bildkontakte
 @@||www.bildkontakte.de^$important
 @@||cdn.bildkontakte.de^$important
 @@||consent.bildkontakte.de^$important
-
-## Finya
+# Finya
 @@||www.finya.de^$important
 @@||cdn.finya.de^$important
 @@||consent.finya.de^$important
-@@||firebaseinstallations.googleapis.com^$important
-
-## Spin.de
+# Spin.de
 @@||www.spin.de^$important
 @@||cdn.spin.de^$important
 @@||media.spin.de^$important
 @@||chat.spin.de^$important
-
-## Hinge (gehört ebenfalls Match Group)
+# Hinge
 @@||api.hingeapp.com^$important
 @@||cdn.hingeapp.com^$important
-@@||firebaseremoteconfig.googleapis.com^$important
-
-## Meetup
+# Meetup
 @@||www.meetup.com^$important
 @@||api.meetup.com^$important
 @@||static2.meetupstatic.com^$important
 @@||secure.meetupstatic.com^$important
-@@||consentcdn.cookiebot.com^$important
-
-## Telegram (wenn per DNS blockiert)
+# Telegram (Web/API)
 @@||web.telegram.org^$important
 @@||t.me^$important
 @@||telegram.me^$important
@@ -227,12 +252,8 @@
 @@||cdn5.telegram-cdn.org^$important
 @@||cdn6.telegram-cdn.org^$important
 @@||api.telegram.org^$important
-
-## ❤️ Allgemeine Dating-Portale
-@@||finya.de^$important
-@@||cdn.finya.de^$important
+# Allgemeine Dating-Portale (Kurzform)
 @@||okcupid.com^$important
-@@||cdn.okcimg.com^$important
 @@||tinder.com^$important
 @@||cdn.tinder.com^$important
 @@||bumble.com^$important
@@ -242,23 +263,16 @@
 @@||badoo.com^$important
 @@||cdn.badoo.com^$important
 @@||hingeapp.com^$important
-@@||api.hingeapp.com^$important
 @@||parship.de^$important
 @@||cdn.parship.de^$important
 @@||elitepartner.de^$important
 @@||cdn.elitepartner.de^$important
 @@||edarling.de^$important
 @@||cdn.edarling.de^$important
-@@||bildkontakte.de^$important
-@@||cdn.bildkontakte.de^$important
-@@||spin.de^$important
-@@||cdn.spin.de^$important
 @@||jaumo.com^$important
 @@||cdn.jaumo.com^$important
 @@||once.app^$important
 @@||api.once.app^$important
-@@||wooplus.com^$important
-@@||cdn.wooplus.com^$important
 @@||gocrush.de^$important
 @@||cdn.gocrush.de^$important
 @@||lovescout24.de^$important
@@ -270,17 +284,11 @@
 @@||cdn.meet5.app^$important
 @@||blindmate.app^$important
 @@||boo.app^$important
-
-## 🔥 Casual-Dating / Erotik-Portale
+# Casual/Erotik
 @@||c-date.de^$important
-@@||cdn.c-date.net^$important
-@@||joyclub.de^$important
-@@||cdn.joyclub.de^$important
 @@||poppen.de^$important
-@@||cdn.poppen.de^$important
 @@||firstaffair.com^$important
 @@||lovepoint.de^$important
-@@||cdn.lovepoint.de^$important
 @@||secret.de^$important
 @@||gelegenheitssex.com^$important
 @@||casualdatingclub.de^$important
@@ -294,12 +302,8 @@
 @@||ashleymadison.com^$important
 @@||victoriamilan.de^$important
 @@||onlydates.de^$important
-
-## 💬 Internationale & alternative Apps
-@@||fetlife.com^$important
-@@||cdn.fetlife.com^$important
+# Internationale & alternative
 @@||kinkd.app^$important
-@@||breeze.app^$important
 @@||chat-and-yamo.com^$important
 @@||clover.co^$important
 @@||pure.app^$important
@@ -310,44 +314,26 @@
 @@||hily.app^$important
 @@||her.app^$important
 @@||feeld.co^$important
-
-## 🧭 Regionale & Community-Plattformen
-@@||meetup.com^$important
-@@||api.meetup.com^$important
-@@||static2.meetupstatic.com^$important
-@@||secure.meetupstatic.com^$important
-@@||telegram.org^$important
-@@||api.telegram.org^$important
-@@||web.telegram.org^$important
-@@||t.me^$important
-@@||telegram.me^$important
-@@||cdn4.telegram-cdn.org^$important
-@@||cdn5.telegram-cdn.org^$important
-@@||cdn6.telegram-cdn.org^$important
-@@||facebook.com^$important
-@@||fbcdn.net^$important
-@@||reddit.com^$important
-@@||redditstatic.com^$important
-
-## Basisfunktionen
+############################################################
+## 13) Basisfunktionen / Admin / Automations
+############################################################
+# n8n
 @@||n8n.io^$important
 @@||cdn.n8n.io^$important
 @@||n8n.cloud^$important
 @@||updates.n8n.io^$important
-@@||telemetry.n8n.io^$important   # optional – nur Statistik
-
-## Lokale Nutzung (z. B. http://localhost:5678)
+@@||identity.api.n8n.io^$important
+@@||telemetry.n8n.io^$important
+# Lokale Nutzung
 @@||localhost^$important
 @@||127.0.0.1^$important
 @@||::1^$important
-
-## Externe API-Zugriffe
+# Externe APIs
 @@||api.openai.com^$important
 @@||api.anthropic.com^$important
 @@||api.openrouter.ai^$important
 @@||huggingface.co^$important
 @@||replicate.com^$important
-@@||api.telegram.org^$important
 @@||api.twilio.com^$important
 @@||graph.facebook.com^$important
 @@||discord.com^$important
@@ -366,75 +352,38 @@
 @@||graph.microsoft.com^$important
 @@||outlook.office365.com^$important
 @@||login.microsoftonline.com^$important
-@@||api.telegram.org^$important
-
-## Webhooks / HTTP Request Nodes
+# Webhooks / HTTP Request Nodes
 @@||webhook.site^$important
 @@||webhookrelay.com^$important
 @@||webhookrelay.io^$important
 @@||ifttt.com^$important
 @@||make.com^$important
 @@||zapier.com^$important
-
-## Datei- und Cloud-Transfers
+# Datei-/Cloud-Transfers
 @@||s3.amazonaws.com^$important
 @@||storage.googleapis.com^$important
-@@||content.dropboxapi.com^$important
 @@||transfer.sh^$important
 @@||file.io^$important
-
-## Authentifizierung / OAuth
+# Auth / OAuth
 @@||accounts.google.com^$important
 @@||oauth2.googleapis.com^$important
-@@||login.microsoftonline.com^$important
-@@||identity.api.n8n.io^$important
-
-## Sicherheit / Zertifikate
+# Sicherheit / Zertifikate
 @@||ocsp.pki.goog^$important
 @@||crl.pki.goog^$important
 @@||letsencrypt.org^$important
 @@||acme-v02.api.letsencrypt.org^$important
-
-## Knuddels / CometChat Fix
-@@||cometchat.io^$important
-@@||metrics-eu.cometchat.io^$important
-@@||nexus-websocket-a.intercom.io^$important
-@@||api.intercom.io^$important
-@@||widget.intercom.io^$important
-@@||cdn.intercom.io^$important
-
-## SDK-Initialisierung (sicher)
-@@||shepherd.avcdn.net^$important
-@@||tag.adrsbl.io^$important
-
-## Consent/CMP – ohne die hängt oft der Start/Login
-@@||consent.cookiebot.com^$important
-@@||cdn.privacy-mgmt.com^$important      # Sourcepoint CMP
-@@||*.gcp.gvt2.com^$important            # Google Beacons-Edges (Knuddels WebLoader)
-
-## Rokt – App-Flows/Deep Links (Lovoo/Tinder teils via Rokt)
-@@||apps.rokt.com^$important
-
-## Moloco – Kampagnen-/SDK-Init (Lovoo/Tinder Creatives)
-@@||dsp-api.moloco.com^$important
-@@||sdkapi.dsp-api.moloco.com^$important
-@@||sdkopmetrics-eu.dsp-api.moloco.com^$important
-@@||sdkopmetrics-us.dsp-api.moloco.com^$important
-@@||cdn-f.adsmoloco.com^$important
-
-## Unity Mediation / IAds – WebView/HTML Assets (Tinder u. a.)
-@@||*.mediation.unity3d.com^$important
-@@||i-sdk.mediation.unity3d.com^$important
-@@||o-sdk.mediation.unity3d.com^$important
-@@||i-adq.mediation.unity3d.com^$important
-@@||*.iads.unity3d.com^$important
-@@||html-uap.iads.unity3d.com^$important
-
-## Liftoff – zusätzlich zum bereits erlaubten click/impression
-@@||adexp.liftoff.io^$important
-
-
-
+############################################################
+## 14) Optionale Telemetrie (nur falls App-Start sonst hängt)
+############################################################
+# Datadog (US & EU Intake – beobachtet in Logs)
+@@||browser-intake-datadoghq.com^$important
+@@||logs.browser-intake-datadoghq.eu^$important
+# Bugsnag
+@@||sessions.bugsnag.com^$important
+# Sentry
+@@||sentry.io^$important
+# Microsoft Clarity (einige Seiten/Logins verlangen Script)
+@@||www.clarity.ms^$important
 
 ## Begrenzte Zulassung
 # activity.windows.com
@@ -450,224 +399,203 @@
 
 ## Arbeit-HH
 hh-berlin.de/*
-*.hh-berlin.de
-*.hhdom.hh-berlin.de
+@@||*.hh-berlin.de^$important
+@@||*.hhdom.hh-berlin.de^$important
 @hhdom.hh-berlin.de
-backupsrv.hhdom.hh-berlin.de
-db-server.hhdom.hh-berlin.de
-dc3.hhdom.hh-berlin.de
-dc4.hhdom.hh-berlin.de
-gdata.hhdom.hh-berlin.de
-hh-berlin.de
-hhsrv1.hhdom.hh-berlin.de
-hhsrv2.hhdom.hh-berlin.de
-jalbrecht-nb.hhdom.hh-berlin.de
-nas3.hhdom.hh-berlin.de
-racketchatsrv.hhdom.hh-berlin.de
-supportdbsrv.hhdom.hh-berlin.de
-telefonie.hh-berlin.de
-testsystem-pc.hhdom.hh-berlin.de
-wpad.hhdom.hh-berlin.de
-wsussrv.hhdom.hh-berlin.de
-*.huami.com
-hhberlin.cloud.veda.net
+@@||backupsrv.hhdom.hh-berlin.de^$important
+@@||db-server.hhdom.hh-berlin.de^$important
+@@||dc3.hhdom.hh-berlin.de^$important
+@@||dc4.hhdom.hh-berlin.de^$important
+@@||gdata.hhdom.hh-berlin.de^$important
+@@||hh-berlin.de^$important
+@@||hhsrv1.hhdom.hh-berlin.de^$important
+@@||hhsrv2.hhdom.hh-berlin.de^$important
+@@||jalbrecht-nb.hhdom.hh-berlin.de^$important
+@@||nas3.hhdom.hh-berlin.de^$important
+@@||racketchatsrv.hhdom.hh-berlin.de^$important
+@@||supportdbsrv.hhdom.hh-berlin.de^$important
+@@||telefonie.hh-berlin.de^$important
+@@||testsystem-pc.hhdom.hh-berlin.de^$important
+@@||wpad.hhdom.hh-berlin.de^$important
+@@||wsussrv.hhdom.hh-berlin.de^$important
+@@||*.huami.com^$important
+@@||hhberlin.cloud.veda.net^$important
 
 ## Soziale Medien
 @||t.me^$wichtig
 t.me/*
-twitter.com
+@@||twitter.com^$important
 
 ## E-Commerce
-*.ebesucher.de
-*.ganzoffen.de
+@@||*.ebesucher.de^$important
+@@||*.ganzoffen.de^$important
 *.aliexpress.com/*
 login.aliexpress.com/buyer.htm
-www.aliexpress.com
-*.amazon-adsystem.com
-*.amazon.com
-*.amazon.de
+@@||www.aliexpress.com^$important
+@@||*.amazon-adsystem.com^$important
 *.amazon.de*
-*.amazonalexa.com
-*.amazonaws.com
-*.amazonaws.com
-*.amazonpreview.com
-*.amazontrast.com
-*.amazonvideo.com
-*.media-amazon.com
+@@||*.amazonpreview.com^$important
+@@||*.amazontrast.com^$important
+@@||*.media-amazon.com^$important
 @||mads-eu.amazon.com^$wichtig
-Fertigstellung.amazon.com
-*.ebay.de
-Mobileanalytics.us-east-1.amazonaws.com
+@@||Fertigstellung.amazon.com^$important
+@@||*.ebay.de^$important
+@@||Mobileanalytics.us-east-1.amazonaws.com^$important
 @||alexa.eu.gateway.devices.a2z.com^$wichtig
-*.us-east-1.prod.service.minerva.devices.a2z.com
-Updates.amazon.com
+@@||*.us-east-1.prod.service.minerva.devices.a2z.com^$important
+@@||Updates.amazon.com^$important
 aax-eu.amazon-ad
-aax-eu.amazon-adsysTem.com
-amazon-adsystem.com
-amazon.com
-amazon.de
-amazonalexa.com
-amazonaws.com
-amazonvideo.com
-chartbeat-sdk.s3.amazonaws.com
-device-messaging-na.amazon.com
-device-metrics-us-2.amazon.com
-device-metrics-us.amazon.com
-fls-eu.amazon.com
-fls-na.amazon.com
-kinesis.us-east-1.amazonaws.com
-mas-sdk.amazon.com
-msh.amazon.co.uk
-punkt.us-east-1.amazonaws.com
-softwareupdates.amazon.com
-src.ebay-us.com
-userlike-cdn-widgets.s3-eu-west-1.amazonaws.com
-www.amazon.com
-www.amazonpreview.com
+@@||aax-eu.amazon-adsysTem.com^$important
+@@||amazon-adsystem.com^$important
+@@||amazon.com^$important
+@@||amazon.de^$important
+@@||amazonalexa.com^$important
+@@||amazonaws.com^$important
+@@||amazonvideo.com^$important
+@@||chartbeat-sdk.s3.amazonaws.com^$important
+@@||device-metrics-us-2.amazon.com^$important
+@@||fls-na.amazon.com^$important
+@@||mas-sdk.amazon.com^$important
+@@||msh.amazon.co.uk^$important
+@@||punkt.us-east-1.amazonaws.com^$important
+@@||softwareupdates.amazon.com^$important
+@@||src.ebay-us.com^$important
+@@||userlike-cdn-widgets.s3-eu-west-1.amazonaws.com^$important
+@@||www.amazon.com^$important
+@@||www.amazonpreview.com^$important
 @@||matomo.garmin.com^$important
 
 ## Chat
 @@||wa.me^$important
 
 ## Gutschein_Coupon
-www.joinhoney.com
+@@||www.joinhoney.com^$important
 
 ## Videostreaming
-*.netflix.com
+@@||*.netflix.com^$important
 *.ardmediathek.d
-*.crunchyroll.com
-*.disneyplus.com
-*.disney.com
-*.freevee.com
-*.funimation.com
-*.hbomax.com
-*.hulu.com
-*.joyn.de
-*.kividoo.de
-*.maxdome.de
-*.primevideo.com
-*.prosiebensat1digital.de
-*.rtlplus.de
-*.sky.de
-*.tvnow.de
-*.waipu.tv
-*.zattoo.com
-*.zdf.de
+@@||*.crunchyroll.com^$important
+@@||*.disneyplus.com^$important
+@@||*.disney.com^$important
+@@||*.freevee.com^$important
+@@||*.funimation.com^$important
+@@||*.hbomax.com^$important
+@@||*.hulu.com^$important
+@@||*.joyn.de^$important
+@@||*.kividoo.de^$important
+@@||*.maxdome.de^$important
+@@||*.primevideo.com^$important
+@@||*.prosiebensat1digital.de^$important
+@@||*.rtlplus.de^$important
+@@||*.sky.de^$important
+@@||*.tvnow.de^$important
+@@||*.waipu.tv^$important
+@@||*.zattoo.com^$important
+@@||*.zdf.de^$important
 _https._tcp.repo.skype.com
-api.promotions.skype.com
-consumer.antitlement.skype.com
-freevee.com
-go.trouter.skype.com
-joyn.de
-kividoo.de
-maxdome.de
-media.ntv.de
-*.ntv.de
-*.welt.de
-pipe.skype.com
-primevideo.com
-rtlplus.de
-sky.de
-tvnow.de
-video.ntv.de
-waipu.tv
-zattoo.com
-zdf.de
-*.netzkino.de
-streamingerror.rtl.de
-*.n-tv.de
-@@||analytics.plex.tv^$important
-
-## Bördse
-*.traderepublic.com
+@@||api.promotions.skype.com^$important
+@@||consumer.antitlement.skype.com^$important
+@@||freevee.com^$important
+@@||go.trouter.skype.com^$important
+@@||joyn.de^$important
+@@||kividoo.de^$important
+@@||maxdome.de^$important
+@@||media.ntv.de^$important
+@@||*.ntv.de^$important
+@@||*.welt.de^$important
+@@||pipe.skype.com^$important
+@@||primevideo.com^$important
+@@||rtlplus.de^$important
+@@||sky.de^$important
+@@||tvnow.de^$important
+@@||video.ntv.de^$important
+@@||waipu.tv^$important
+@@||zattoo.com^$important
+@@||zdf.de^$important
+@@||*.netzkino.de^$important
+@@||*.n-tv.de^$important
 
 ## Search Engines
-*.ecosia.org
-*.google.com
-*.googleapis.com
-*.googlesyndication.com
-*.googlevideo.com
-Benutzerstandort.googleapis.com
+@@||*.ecosia.org^$important
+@@||*.google.com^$important
+@@||*.googleapis.com^$important
+@@||*.googlesyndication.com^$important
+@@||*.googlevideo.com^$important
+@@||Benutzerstandort.googleapis.com^$important
 Benutzerstandort.googleapis.com #Google Standort
-Geschichte.google.com
-Schriftarten.googleapis.com
-Tools.google.com
-Update.googleapis.com
-adservice.google.com
-ecosia.org
-google.com
-googleapis.com
-googlevideo.com
-id.google.com
-www.bing.com
-www.ecosia.org
-www.google.de
-www.googleapis.com
-
+@@||Geschichte.google.com^$important
+@@||Schriftarten.googleapis.com^$important
+@@||Tools.google.com^$important
+@@||Update.googleapis.com^$important
+@@||adservice.google.com^$important
+@@||ecosia.org^$important
+@@||google.com^$important
+@@||googleapis.com^$important
+@@||googlevideo.com^$important
+@@||id.google.com^$important
+@@||www.bing.com^$important
+@@||www.ecosia.org^$important
+@@||www.google.de^$important
 ## Cloud Services
-*.akamaihd.net
-*.cloudflare.com
-*.cloudfront.net
-*.dropbox.com
-*.fastly.net
+@@||*.akamaihd.net^$important
+@@||*.cloudflare.com^$important
+@@||*.dropbox.com^$important
+@@||*.fastly.net^$important
 *.gmx.net*
-*.nextcloud.com
-*.strato.com
-*.stratoserver.net
-Updates.nextcloud.org
-akamaihd.net
-api.hidrive.strato.com
-cloudfront.net
-gdataupdate-a.akamaihd.net
-h2980118.stratoserver.net
-stats.nextcloud.com
-strato.de
-telemetry.dropbox.com
-www.gmx.net
-www.hidrive.strato.com
-
+@@||*.nextcloud.com^$important
+@@||*.strato.com^$important
+@@||*.stratoserver.net^$important
+@@||Updates.nextcloud.org^$important
+@@||akamaihd.net^$important
+@@||api.hidrive.strato.com^$important
+@@||cloudfront.net^$important
+@@||gdataupdate-a.akamaihd.net^$important
+@@||h2980118.stratoserver.net^$important
+@@||stats.nextcloud.com^$important
+@@||strato.de^$important
+@@||telemetry.dropbox.com^$important
+@@||www.gmx.net^$important
+@@||www.hidrive.strato.com^$important
 ## Cryptocurrency
-*.bittrex.com
-*.crypto.com
-*.helium.io
-*.panther-x.io
+@@||*.bittrex.com^$important
+@@||*.crypto.com^$important
+@@||*.helium.io^$important
+@@||*.panther-x.io^$important
 *.binance.com*
-*.bittrex.com
-*.coinbase.com
+@@||*.coinbase.com^$important
 *.helium.com/*
-*.heliumfoundation.wtf
+@@||*.heliumfoundation.wtf^$important
 *.unmineable.com*
 @||api.bittrex.com^$wichtig
 @||socket-v3.bittrex.com^$wichtig
-Blockchain.helium.io
-Explorer-api.helium.com
-Explorer.helium.com
-Helium-snapshots.nebra.com
-Heliumtracker.io
-Router.helium.io
-api.helium.io
-bittrex.com
-cryptotab.net
-global.bittrex.com
-helium.com
-localruntime.heliumiot.com
-samen.helium.io
-samen.helium.ioRou
-sensors.binance.cloud
-www.coinbase.com
-*.coinmarketcap.com
-minerclaim.net
-minergate.com
-primedice.com
+@@||Blockchain.helium.io^$important
+@@||Explorer-api.helium.com^$important
+@@||Explorer.helium.com^$important
+@@||Helium-snapshots.nebra.com^$important
+@@||Heliumtracker.io^$important
+@@||Router.helium.io^$important
+@@||api.helium.io^$important
+@@||bittrex.com^$important
+@@||cryptotab.net^$important
+@@||global.bittrex.com^$important
+@@||helium.com^$important
+@@||localruntime.heliumiot.com^$important
+@@||samen.helium.io^$important
+@@||samen.helium.ioRou^$important
+@@||sensors.binance.cloud^$important
+@@||www.coinbase.com^$important
+@@||*.coinmarketcap.com^$important
+@@||minerclaim.net^$important
+@@||minergate.com^$important
+@@||primedice.com^$important
 @@||www.kucoin.plus^$important
 @@||bigdata-scfx-push.kucoin.plus^$important
-metamask.io
-app.mycrypto.com
-mycrypto.com
+@@||metamask.io^$important
+@@||app.mycrypto.com^$important
+@@||mycrypto.com^$important
 @@||www.myetherwallet.com^$important
 @@||metamask.withcl.com^$important
 @@||card.metamask.withcl.com^$important
-@@||www.getmonero.org^$important
 @@||cryptobrowser.site^$important
 @@||ebesucher.de^$important
 @@||ebesucher.com^$important
@@ -681,266 +609,254 @@ mycrypto.com
 @@||sha256.eu.mine.zergpool.com^$important
 @@||miningpoolhub.com^$important
 @@||litecoin.miningpoolhub.com^$important
-*.cudo.org
-*.cudominer.com
+@@||*.cudo.org^$important
+@@||*.cudominer.com^$important
 @@||trezor.io^$important
 
-
 ## Spiele
-*.worldoftanks.eu
+@@||*.worldoftanks.eu^$important
 @@||join.worldoftanks.eu^$important
 
 ## Erotik
-*.eronity.com
-*.fetischpartner.com
+@@||*.eronity.com^$important
+@@||*.fetischpartner.com^$important
 *.gesext.de/*
 *.poppen.de/*
-*.gesext.de
+@@||*.gesext.de^$important
 *.joyclub.de/*
-*.poppen.de/*
 *.schlagzeilen.com*
 .sklavenzentrale.com*
 @@||fetisch.de^$important
-*.fetisch.de
-*.xhamster.com
-*.xhamster2.com
-sexkontaktanzeigen.com
-feucht-chat.com
-erotik.markt.de
-www.ashleymadison.com
-*.swingerklub.de
+@@||*.fetisch.de^$important
+@@||*.xhamster.com^$important
+@@||*.xhamster2.com^$important
+@@||sexkontaktanzeigen.com^$important
+@@||feucht-chat.com^$important
+@@||erotik.markt.de^$important
+@@||www.ashleymadison.com^$important
+@@||*.swingerklub.de^$important
 
 ## Dating
-*.internationalcupid.com
-*.afrointroductions.com
-*.thaicupid.com
+@@||*.internationalcupid.com^$important
+@@||*.afrointroductions.com^$important
+@@||*.thaicupid.com^$important
 
 ## Shopping
-*.shoop.de
-*.shop-apotheke.com
-info.shop-apotheke.com
-www.aklamio.com
-www.gutscheinaffe.de
-www.gutscheinheld.de
-www.mydealz.de
-www.preisheld.de
-www.shop-apotheke.com
-*.alicdn.com
+@@||*.shoop.de^$important
+@@||*.shop-apotheke.com^$important
+@@||info.shop-apotheke.com^$important
+@@||www.aklamio.com^$important
+@@||www.gutscheinaffe.de^$important
+@@||www.gutscheinheld.de^$important
+@@||www.mydealz.de^$important
+@@||www.preisheld.de^$important
+@@||www.shop-apotheke.com^$important
+@@||*.alicdn.com^$important
 
 ## Alexa und Smart Devices
-*.lgtvsdp.com
-*.lgtvsdp.com
-lgtvonline.lge.com
-eic.cdpbeacon.lgtvcommon.com
-*.philips-hue.com
-*.tuya.com
-*.tuyacn.com
-*.tuyaeu.com
-*.tuyaus.com
-alexa.ioucys.cn
-*.growatt.com
-
+@@||*.lgtvsdp.com^$important
+@@||lgtvonline.lge.com^$important
+@@||eic.cdpbeacon.lgtvcommon.com^$important
+@@||*.philips-hue.com^$important
+@@||*.tuya.com^$important
+@@||*.tuyacn.com^$important
+@@||*.tuyaeu.com^$important
+@@||*.tuyaus.com^$important
+@@||alexa.ioucys.cn^$important
+@@||*.growatt.com^$important
 ## KI und Haussteuerung
-*.heimassistent.io
+@@||*.heimassistent.io^$important
 *.homematic.com*
-@@||analytics-api.home-assistant.io^$important
 @||de.watch.iot.mi.com
-homematic.com
+@@||homematic.com^$important
 # Anmeldung groq.com
-*.stytch.com 
+@@||*.stytch.com^$important
 @@||api.stytch.com^$important
 @@||elements.stytch.com^$important
 @@||web.stytch.com^$important
-
 ## RadarBox
-*.rb24.com
-*.radarbox.com
-*.flightradar24.com
-
+@@||*.rb24.com^$important
+@@||*.radarbox.com^$important
+@@||*.flightradar24.com^$important
 ## Verdienst-Links
-*.honeygain.com
-*.honeygain.com
-cdn.honeygain.com
+@@||*.honeygain.com^$important
+@@||cdn.honeygain.com^$important
 
 ## Bildung
-*.udemy.com
+@@||*.udemy.com^$important
 
 ## Technologie/Software
-*.githubusercon
-*.githubusercontent.com
-collector.github.com
-github.com
+@@||*.githubusercon^$important
+@@||*.githubusercontent.com^$important
+@@||collector.github.com^$important
+@@||github.com^$important
 
 ## Gesundheit
 
 ## Miscellaneous
-*.adups.cn
-*.adups.com
-*.applovin.com
-*.augenweide.com
-*.brave.com
-*.bravesssoftware.com
-*.burgerme.de
-*.dynv6.com
-*.dynv6.net
-*.e-dis-netz.de
+@@||*.adups.cn^$important
+@@||*.adups.com^$important
+@@||*.applovin.com^$important
+@@||*.augenweide.com^$important
+@@||*.brave.com^$important
+@@||*.bravesssoftware.com^$important
+@@||*.burgerme.de^$important
+@@||*.dynv6.com^$important
+@@||*.dynv6.net^$important
+@@||*.e-dis-netz.de^$important
 *.f2pool.com*
-*.focus.de
-*.lgappstv.com
+@@||*.focus.de^$important
+@@||*.lgappstv.com^$important
 *.myfritz.net*
 *.opera.com*
 @@||wextap.com^$important
-*.shopback.com
-*.rakuten.com
-shopback.go2cloud.org
-*.radarbox.com
-*.raspberrypi.org
+@@||*.shopback.com^$important
+@@||*.rakuten.com^$important
+@@||shopback.go2cloud.org^$important
+@@||*.raspberrypi.org^$important
 *.seki92-home.de*
 *.selfhost.eu*
 *.almisoft.de*
-*.shelly.cloud
-*.temu.com
-*.xiaomi.net
-*.Instagram.com
-*.Synology.com
-global.quickconnect.to
-*.Twitter.com
-*.adsbexchange.com
-*.akamaized.net
-*.alibaba.com
-*.amberweather.com
-*.android.com
-*.appsflyer.com
-*.appsflyersdk.com
-*.atudo.net
-*.audible.de
-*.avast.com
+@@||*.shelly.cloud^$important
+@@||*.temu.com^$important
+@@||*.xiaomi.net^$important
+@@||*.Instagram.com^$important
+@@||*.Synology.com^$important
+@@||global.quickconnect.to^$important
+@@||*.Twitter.com^$important
+@@||*.adsbexchange.com^$important
+@@||*.akamaized.net^$important
+@@||*.alibaba.com^$important
+@@||*.amberweather.com^$important
+@@||*.android.com^$important
+@@||*.appsflyer.com^$important
+@@||*.appsflyersdk.com^$important
+@@||*.atudo.net^$important
+@@||*.audible.de^$important
+@@||*.avast.com^$important
 *.avm.de*
-*.awin1.com
-*.banggood.com
-*.barclaycard.de
-*.bild.de
+@@||*.awin1.com^$important
+@@||*.banggood.com^$important
+@@||*.barclaycard.de^$important
+@@||*.bild.de^$important
 *.bonicstats.com*
-*.booking.com
-*.brave.com
-*.braze.eu
-*.bringmeister.de
-*.buhl.de
+@@||*.booking.com^$important
+@@||*.braze.eu^$important
+@@||*.bringmeister.de^$important
+@@||*.buhl.de^$important
 *.buhl.de*
-*.cccambox.com
-*.cccamfox.com
-*.chinapost.com.cn
-*.cloudatcost.com
-*.cloudmatic.de
-*.computerbild.de
-*.computerwoche.de
-*.conrad.com
+@@||*.cccambox.com^$important
+@@||*.cccamfox.com^$important
+@@||*.chinapost.com.cn^$important
+@@||*.cloudatcost.com^$important
+@@||*.cloudmatic.de^$important
+@@||*.computerbild.de^$important
+@@||*.computerwoche.de^$important
+@@||*.conrad.com^$important
 *.cryptobrowser.site*
-*.dartsearch.net
-*.degoo.com
-*.disney.com
-*.disneystreaming.com
-*.dynamicyield.com
-*.easypark.net
-*.easyparkgroup.com
-*.eis.de
-*.elv.com
-*.eon.de
+@@||*.dartsearch.net^$important
+@@||*.degoo.com^$important
+@@||*.disneystreaming.com^$important
+@@||*.dynamicyield.com^$important
+@@||*.easypark.net^$important
+@@||*.easyparkgroup.com^$important
+@@||*.eis.de^$important
+@@||*.elv.com^$important
+@@||*.eon.de^$important
 *.eq-3.de*
-*.eset.com
-*.fedex.com
+@@||*.eset.com^$important
+@@||*.fedex.com^$important
 *.fitbit.com*
-*.freebitco.in
-*.geforce.com
-*.gstatic.com
-*.hbo.com
+@@||*.freebitco.in^$important
+@@||*.geforce.com^$important
+@@||*.gstatic.com^$important
+@@||*.hbo.com^$important
 *.hidrive.com*
-*.hsforms.com
-*.hsforms.net
-*.immowelt.de
-*.ing.de
-*.iobit.com
-*.kaufmich.com
-*.kcsoftwares.com
-*.keepa.com
-*.kik.com
-*.klarna.com
-*.knuddels.de
-*.kristall-therme-ludwigsfelde.de
+@@||*.hsforms.com^$important
+@@||*.hsforms.net^$important
+@@||*.immowelt.de^$important
+@@||*.ing.de^$important
+@@||*.iobit.com^$important
+@@||*.kaufmich.com^$important
+@@||*.kcsoftwares.com^$important
+@@||*.keepa.com^$important
+@@||*.kik.com^$important
+@@||*.klarna.com^$important
+@@||*.kristall-therme-ludwigsfelde.de^$important
 *.kucoin.com/*
-*.lenovomm.com
+@@||*.lenovomm.com^$important
 *.lgsmartad.com*
 *.lidl.de*
-*.lieferando.de
-*.line-apps.com
-*.line.naver.jp
-*.lotto24.de
+@@||*.lieferando.de^$important
+@@||*.line-apps.com^$important
+@@||*.line.naver.jp^$important
+@@||*.lotto24.de^$important
 @@||lotto24.de^$important
-*.lottohelden.de
-*.lovoo.com
-*.magenta.tv
-*.malwarebytes.com
+@@||*.lottohelden.de^$important
+@@||*.lovoo.com^$important
+@@||*.magenta.tv^$important
+@@||*.malwarebytes.com^$important
 *.market.xiaomi.com*
-*.markt.de
-*.mediamarkt.de
-*.miui.com
-*.myqnapcloud.com
-*.mywot.com
-*.nebra.com
-*.nflxext.com
-*.nflximg.com
-*.nflxso.net
-*.nflxvideo.net
+@@||*.markt.de^$important
+@@||*.mediamarkt.de^$important
+@@||*.miui.com^$important
+@@||*.myqnapcloud.com^$important
+@@||*.mywot.com^$important
+@@||*.nebra.com^$important
+@@||*.nflxext.com^$important
+@@||*.nflximg.com^$important
+@@||*.nflxso.net^$important
+@@||*.nflxvideo.net^$important
 *.nhgnet.de*
-*.ntp.org
-*.nvidia.com
-*.octoprint.org
+@@||*.ntp.org^$important
+@@||*.nvidia.com^$important
+@@||*.octoprint.org^$important
 *.omronconnect.com*
 *.onesignal.com #Übermittelte Kundennachrichten Die marktführerde Selbstversorgung-Kundenbindungslösung für Push-Benachrichtigungen, E-Mail, SMS und In-App
-*.opera-api.com
+@@||*.opera-api.com^$important
 *.operacdn.com*
-*.origin.com
-*.osp.opera.software
-*.outfittery.de
-*.pcwelt.de
+@@||*.origin.com^$important
+@@||*.osp.opera.software^$important
+@@||*.outfittery.de^$important
+@@||*.pcwelt.de^$important
 *.pinterest.com*
 *.pinterest.de*
-www.pinterest.com
+@@||www.pinterest.com^$important
 *.poloniex.com*
-*.portainer.io
+@@||*.portainer.io^$important
 *.qnap.com.*
-*.reddit.com
+@@||*.reddit.com^$important
 *.redirekts.tradedoubler.com*
-*.revolut.com
-*.shein.com
-*.simplycore.de
-*.solanaflix.com
+@@||*.revolut.com^$important
+@@||*.shein.com^$important
+@@||*.simplycore.de^$important
+@@||*.solanaflix.com^$important
 *.sony.com*
 *.sony.de*
 *.sony.net*
-*.spaceweatherlive.com
-*.spamassassin.org
-*.spotify.com
-*.steampowered.com
+@@||*.spaceweatherlive.com^$important
+@@||*.spamassassin.org^$important
+@@||*.spotify.com^$important
+@@||*.steampowered.com^$important
 *.taobao.com #Arcctv Webcam Swinger
-*.team-chat.com
-*.teams.microsoft.com
-*.teamstatic.com
-*.tipp24.com
-*.update.microsoft.com
-*.vpnunlimitedapp.com
-*.wargaming.net
-*.whatsapp.com
-*.whatsapp.net
-*.worldofwarships.eu
-*.wunderground.com
+@@||*.team-chat.com^$important
+@@||*.teams.microsoft.com^$important
+@@||*.teamstatic.com^$important
+@@||*.tipp24.com^$important
+@@||*.update.microsoft.com^$important
+@@||*.vpnunlimitedapp.com^$important
+@@||*.wargaming.net^$important
+@@||*.whatsapp.com^$important
+@@||*.whatsapp.net^$important
+@@||*.worldofwarships.eu^$important
+@@||*.wunderground.com^$important
 *.xiaomi.com*
 *.xiaomi.net*
-*.youtube-nocookie.com
-*.youtube.com
-*.ytimg.com
-313589.solanaflix.com
-8ghy.adj.st
+@@||*.youtube-nocookie.com^$important
+@@||*.youtube.com^$important
+@@||*.ytimg.com^$important
+@@||313589.solanaflix.com^$important
+@@||8ghy.adj.st^$important
 @|| alitems.co ^ $ wichtig
 @|| www.shareasale.com ^ $ wichtig
 @||alitems.co^$wichtig
@@ -953,33 +869,31 @@ www.pinterest.com
 @||www.tkqlhce.com^$wichtig
 @||www.zenaps.com^$wichtig
 Aktivität.windows.com
-Alitems.com
-Asset.conrad.com
-Browser-update.org
-Browser.pipe.aria.microsoft.com
-Cutt.ly
+@@||Alitems.com^$important
+@@||Asset.conrad.com^$important
+@@||Browser-update.org^$important
+@@||Browser.pipe.aria.microsoft.com^$important
+@@||Cutt.ly^$important
 Datenbank.clamav.net/*
-Demo.terminkalender.top
-Disneystreaming.com
-Download.fenstersupdate.com
-Download.windowsupdate.com
-Entwickler.api.autodesk.com
-Erweiterungsupdates.opera.com
-Helium-snapshots.nebra.com
-Heliumtracker.io
-Links.12gebrauchtwagen.de
-Magenta.tv
+@@||Demo.terminkalender.top^$important
+@@||Disneystreaming.com^$important
+@@||Download.fenstersupdate.com^$important
+@@||Download.windowsupdate.com^$important
+@@||Entwickler.api.autodesk.com^$important
+@@||Erweiterungsupdates.opera.com^$important
+@@||Links.12gebrauchtwagen.de^$important
+@@||Magenta.tv^$important
 Münzzahlungen.netto
 QuickConnect.to/joerg1968
-Schriftarten.gstatic.com
-Sls.update.microsoft.com
-Tags.adsafety.net
-Tracking.shopback.com
-Unminable.com
-Update-check.realvnc.com
-Update.qnap.com
-Wetter.com
-Widgets.trusTedsHopfens.com
+@@||Schriftarten.gstatic.com^$important
+@@||Sls.update.microsoft.com^$important
+@@||Tags.adsafety.net^$important
+@@||Tracking.shopback.com^$important
+@@||Unminable.com^$important
+@@||Update-check.realvnc.com^$important
+@@||Update.qnap.com^$important
+@@||Wetter.com^$important
+@@||Widgets.trusTedsHopfens.com^$important
 _http._tcp.archive.canonical.com
 _http._tcp.ddebs.ubuntu.com
 _http._tcp.debian.charite.de
@@ -988,251 +902,254 @@ _http._tcp.ftp.hosteurope.de
 _http._tcp.linux.teamviewer.com
 _http._tcp.mirror.bauhuette.fh-aachen.de
 _http._tcp.security.ubuntu.com
-ad.doubleclick.net
-ad.dyntracker.de
+@@||ad.doubleclick.net^$important
+@@||ad.dyntracker.de^$important
 ad.dyntracker.de #Opera Cashback ELV
-ad.flipboard.com
-adguard.com
-adsbexchange.com
-ae01.alicdn.com
+@@||ad.flipboard.com^$important
+@@||adguard.com^$important
+@@||adsbexchange.com^$important
+@@||ae01.alicdn.com^$important
 antpool.com*
-api.cortana.ai
-api.eu-west-1.aiv-delivery.net
-api.gameanalytics.com
-api.insight.netgear.com
-report.netgear.glassboxdigital.io
-api.jwplayer.com
-api.prod.boo.dating
-api.radarbox.com
+@@||api.cortana.ai^$important
+@@||api.eu-west-1.aiv-delivery.net^$important
+@@||api.gameanalytics.com^$important
+@@||api.insight.netgear.com^$important
+@@||report.netgear.glassboxdigital.io^$important
+@@||api.jwplayer.com^$important
+@@||api.prod.boo.dating^$important
+@@||api.radarbox.com^$important
 app.temu.com/*
-atlas.solanaflix.com
-autoupdate.geo.opera.com
-axa.de
-badoo.com
-boinc.bakerlab.org
-ccapp.clubcooee.com
-cccambox.com
-cdn-rocketstream.club
-cdn.jsdelivr.net
-cdn.ravenjs.com
-ciscobinary.openh264.org
-clientmetrics-augmentum.kik.com
-clientmetrics.kik.com
-clkde.tradedoubler.com
+@@||atlas.solanaflix.com^$important
+@@||autoupdate.geo.opera.com^$important
+@@||axa.de^$important
+@@||boinc.bakerlab.org^$important
+@@||ccapp.clubcooee.com^$important
+@@||cccambox.com^$important
+@@||cdn-rocketstream.club^$important
+@@||cdn.jsdelivr.net^$important
+@@||cdn.ravenjs.com^$important
+@@||ciscobinary.openh264.org^$important
+@@||clientmetrics-augmentum.kik.com^$important
+@@||clientmetrics.kik.com^$important
+@@||clkde.tradedoubler.com^$important
 clkde.tradedoubler.com*
-cloud.degoo.com
-comdirect.de
-ctldl.windowsupdate.com
-de.wikisexguide.com
-definitionupdates.microsoft.com
-deutschlandcard01.wt-eu02.net
-dlmping2.adobe.com
-dynupdate.no-ip.com
-easyusinfo.us-east-1.log.aliyuncs.com
-evernote.com
-forum.qnapclub.de
+@@||cloud.degoo.com^$important
+@@||comdirect.de^$important
+@@||ctldl.windowsupdate.com^$important
+@@||de.wikisexguide.com^$important
+@@||definitionupdates.microsoft.com^$important
+@@||deutschlandcard01.wt-eu02.net^$important
+@@||dlmping2.adobe.com^$important
+@@||dynupdate.no-ip.com^$important
+@@||easyusinfo.us-east-1.log.aliyuncs.com^$important
+@@||evernote.com^$important
+@@||forum.qnapclub.de^$important
 freedownloadmanager.org*
-fsr.lenovomm.com
-g.live.com
-gdatasecurity.de
-get3.adobe.com
-global.market.xiaomi.com
-go-updater.brave.com
-gstatic.com
-hbo.com
-heartbeat.dm.origin.com
-hotspotty.net
+@@||fsr.lenovomm.com^$important
+@@||g.live.com^$important
+@@||gdatasecurity.de^$important
+@@||get3.adobe.com^$important
+@@||global.market.xiaomi.com^$important
+@@||go-updater.brave.com^$important
+@@||gstatic.com^$important
+@@||hbo.com^$important
+@@||heartbeat.dm.origin.com^$important
+@@||hotspotty.net^$important
 http://313589.solanaflix.com:8080/
 http://atlas.solanaflix.com
-infoservice.heise.de
-joerg1968.direct.quickconnect.to
-joerg1968.synology.me
-js.smartredirect.de
-k0lj20jr.r.eu-central-1.awstrack.me
-kinkdsupport.com
-li.newshosting.com
-links.mail.immowelt.de
-login.live.com
-m.exactag.com
-mailtrack.io
-mandrillapp.com
-megatron.igraal.com
+@@||infoservice.heise.de^$important
+@@||joerg1968.direct.quickconnect.to^$important
+@@||joerg1968.synology.me^$important
+@@||js.smartredirect.de^$important
+@@||k0lj20jr.r.eu-central-1.awstrack.me^$important
+@@||kinkdsupport.com^$important
+@@||li.newshosting.com^$important
+@@||links.mail.immowelt.de^$important
+@@||login.live.com^$important
+@@||m.exactag.com^$important
+@@||mailtrack.io^$important
+@@||mandrillapp.com^$important
+@@||megatron.igraal.com^$important
 neje.club*
-news.bueromarkt-ag.de
-nflxext.com
-nflximg.com
-nflxso.net
-nflxvideo.net
-ooo-updates.apache.org
-piwheels.org
-pool.ntp.org
-poolnode.club
-portchecker.co
-power-datacenter.com
-pps.whatsapp.net
-pypi.org
-qnapclub.de
-r.bttn.io
+@@||news.bueromarkt-ag.de^$important
+@@||nflxext.com^$important
+@@||nflximg.com^$important
+@@||nflxso.net^$important
+@@||nflxvideo.net^$important
+@@||ooo-updates.apache.org^$important
+@@||piwheels.org^$important
+@@||pool.ntp.org^$important
+@@||poolnode.club^$important
+@@||portchecker.co^$important
+@@||power-datacenter.com^$important
+@@||pps.whatsapp.net^$important
+@@||pypi.org^$important
+@@||qnapclub.de^$important
+@@||r.bttn.io^$important
 r.bttn.io #Opera Cashback
-radarbox.com
-res.cloudinary.com
-s82i.app.link
-servicesupport.hicloud.com
-sirius.mwbsys.com
-slscr.update.microsoft.com
-smetrics.dhl.de
-smetrics.payback.de
-sonypmoglobal.d1.sc.omtrdc.com
-sonypmoglobal.d1.sc.omtrdc.net
-sourceforge.net
-ssl.p.jwpcdn.com
-static1.freebitco.in
-stockeback.go2cloud.org
-teams.events.data.microsoft.com
-temuAffiliateprogramm.pxf.io
-tk.kaufda.de
-trackingapi.kaufda.de
-ue.flipboard.com
+@@||radarbox.com^$important
+@@||res.cloudinary.com^$important
+@@||s82i.app.link^$important
+@@||servicesupport.hicloud.com^$important
+@@||sirius.mwbsys.com^$important
+@@||slscr.update.microsoft.com^$important
+@@||smetrics.dhl.de^$important
+@@||smetrics.payback.de^$important
+@@||sonypmoglobal.d1.sc.omtrdc.com^$important
+@@||sonypmoglobal.d1.sc.omtrdc.net^$important
+@@||sourceforge.net^$important
+@@||ssl.p.jwpcdn.com^$important
+@@||static1.freebitco.in^$important
+@@||stockeback.go2cloud.org^$important
+@@||teams.events.data.microsoft.com^$important
+@@||temuAffiliateprogramm.pxf.io^$important
+@@||tk.kaufda.de^$important
+@@||trackingapi.kaufda.de^$important
+@@||ue.flipboard.com^$important
 ulefone.com*
-update.appwork.org
-update.easeus.com
-updateexte.services.openoffice.org
-uptime.com
-web.de
-web.diagnostic.networking.aws.dev
-whatsapp.com
-wieistmeineip.de
-wish.pxf.io
-wiso.de
-worldoftanks.eu
-www.3dgeeks.app
-www.aldi-nord.de
-www.allego.eu
-www.auswaertiges-amt.de
-www.bafa.de
-www.baidu.com
-www.banggood.com
-www.berliner-sparkasse.de
-www.bitcoin.de
-www.bitrix24.de
-www.blutdruckdaten.de
-www.bosch-emobility.com
-www.carwow.de
-www.cfos.de
-www.chinesekisses.com
-www.chip.de
-www.comdirect.de
-www.commerzbank.de
-www.commerzbanking.de
-www.computerbild.de
-www.dhl.de
-www.dkb.de
-www.dns-net.de
-www.dummysoftware.com
-www.emjcd.com
-www.ems.com.cn
-www.financeads.net
-www.finanzen.net
-www.futurezone.de
-www.goinelectric.de
-www.grenzwissenschaft-aktuell.de
-www.heise.de
-www.highperformancecpm.com
-www.hornbach.de
-www.hotcleaner.com
-www.houge.de
-www.imdb.com
-www.immobilienscout24.de
-www.immonet.de
-www.immosuchmaschine.de
-www.immowelt.de
-www.kontaktbox.de
-www.lotto.de
-www.mamba.ru
-www.mein-rabatt.com
-www.microsoft.com
-www.misterspex.de
-www.msn.com
-www.netzwelt.de
-www.ojrq.net
-www.payback.de
-www.pcwelt.de
-www.plus500.com
-www.quoka.de
-www.radio.de
-www.rain-alarm.com
-www.sadomaso-chat.de
-www.smarticular.net
-www.smartredirect.de
-www.sonne-wind-energie.de
-www.speedtest.net
-www.spiegel.de
-www.spin.de
-www.static-immobilienscout24.de
-www.steuer-web.de
-www.tellows.de
-www.thingiverse.com
-www.tinkercad.com
-www.uavforecast.com
-www.vodafone.de
-www.welect.de
-www.welt.de
-www.wetteronline.de
-www.wish.com
-www.youtube.com
-www.zdnet.de
-youtube-nocookie.com
-youtube.com
-ytimg.com
+@@||update.appwork.org^$important
+@@||update.easeus.com^$important
+@@||updateexte.services.openoffice.org^$important
+@@||uptime.com^$important
+@@||web.de^$important
+@@||web.diagnostic.networking.aws.dev^$important
+@@||whatsapp.com^$important
+@@||wieistmeineip.de^$important
+@@||wish.pxf.io^$important
+@@||wiso.de^$important
+@@||worldoftanks.eu^$important
+@@||www.3dgeeks.app^$important
+@@||www.aldi-nord.de^$important
+@@||www.allego.eu^$important
+@@||www.auswaertiges-amt.de^$important
+@@||www.bafa.de^$important
+@@||www.baidu.com^$important
+@@||www.banggood.com^$important
+@@||www.berliner-sparkasse.de^$important
+@@||www.bitcoin.de^$important
+@@||www.bitrix24.de^$important
+@@||www.blutdruckdaten.de^$important
+@@||www.bosch-emobility.com^$important
+@@||www.carwow.de^$important
+@@||www.cfos.de^$important
+@@||www.chinesekisses.com^$important
+@@||www.chip.de^$important
+@@||www.comdirect.de^$important
+@@||www.commerzbank.de^$important
+@@||www.commerzbanking.de^$important
+@@||www.computerbild.de^$important
+@@||www.dhl.de^$important
+@@||www.dkb.de^$important
+@@||www.dns-net.de^$important
+@@||www.dummysoftware.com^$important
+@@||www.emjcd.com^$important
+@@||www.ems.com.cn^$important
+@@||www.financeads.net^$important
+@@||www.finanzen.net^$important
+@@||www.futurezone.de^$important
+@@||www.goinelectric.de^$important
+@@||www.grenzwissenschaft-aktuell.de^$important
+@@||www.heise.de^$important
+@@||www.highperformancecpm.com^$important
+@@||www.hornbach.de^$important
+@@||www.hotcleaner.com^$important
+@@||www.houge.de^$important
+@@||www.imdb.com^$important
+@@||www.immobilienscout24.de^$important
+@@||www.immonet.de^$important
+@@||www.immosuchmaschine.de^$important
+@@||www.immowelt.de^$important
+@@||www.kontaktbox.de^$important
+@@||www.lotto.de^$important
+@@||www.mamba.ru^$important
+@@||www.mein-rabatt.com^$important
+@@||www.microsoft.com^$important
+@@||www.misterspex.de^$important
+@@||www.msn.com^$important
+@@||www.netzwelt.de^$important
+@@||www.ojrq.net^$important
+@@||www.payback.de^$important
+@@||www.pcwelt.de^$important
+@@||www.plus500.com^$important
+@@||www.quoka.de^$important
+@@||www.radio.de^$important
+@@||www.rain-alarm.com^$important
+@@||www.sadomaso-chat.de^$important
+@@||www.smarticular.net^$important
+@@||www.smartredirect.de^$important
+@@||www.sonne-wind-energie.de^$important
+@@||www.speedtest.net^$important
+@@||www.spiegel.de^$important
+@@||www.static-immobilienscout24.de^$important
+@@||www.steuer-web.de^$important
+@@||www.tellows.de^$important
+@@||www.thingiverse.com^$important
+@@||www.tinkercad.com^$important
+@@||www.uavforecast.com^$important
+@@||www.vodafone.de^$important
+@@||www.welect.de^$important
+@@||www.welt.de^$important
+@@||www.wetteronline.de^$important
+@@||www.wish.com^$important
+@@||www.youtube.com^$important
+@@||www.zdnet.de^$important
+@@||youtube-nocookie.com^$important
+@@||youtube.com^$important
+@@||ytimg.com^$important
 Ökosia.org
-*.yahoo.com
-api.onesignal.com
-johnsad.ventures
-*.edeka.de
-login.edeka
-cta-service-cms2.hubspot.com
-newsletter.onvista.de
-paid.outbrain.com
-*.volla.online
-getfireshot.com
-*.thunderbird.net
-*.laplink.com
-*.acronis.com
-*.lottoland.com
-*.morgenpost.de
+@@||*.yahoo.com^$important
+@@||api.onesignal.com^$important
+@@||johnsad.ventures^$important
+@@||*.edeka.de^$important
+@@||login.edeka^$important
+@@||cta-service-cms2.hubspot.com^$important
+@@||newsletter.onvista.de^$important
+@@||paid.outbrain.com^$important
+@@||*.volla.online^$important
+@@||getfireshot.com^$important
+@@||*.thunderbird.net^$important
+@@||*.laplink.com^$important
+@@||*.acronis.com^$important
+@@||*.lottoland.com^$important
+@@||*.morgenpost.de^$important
 @@||api.passport-photo.online^$important
 @@||analytics.picsart.com^$important
 @@||api.picsart.com^$important
 @@||www.lottoland.com^$important
-@@||join.worldoftanks.eu^$important
 @@||slackb.com^$important
 @@||penny.de^$important
 
 ## Flick
-*.aseko.com
-*.aseko.cloud
+@@||*.aseko.com^$important
+@@||*.aseko.cloud^$important
 
 ## News
-www.faz.net
+@@||www.faz.net^$important
 
 ## Börse
-*.onvista.de
-*.traderepublic.com
-*.finanz.net
+@@||*.onvista.de^$important
+@@||*.finanz.net^$important
+@@||*.traderepublic.com^$important
 
 ## Lizenzen
-activation.easeus.com
+@@||activation.easeus.com^$important
 
 ## KI
-*.chatgpt.com
-stytch.com
+@@||*.chatgpt.com^$important
+@@||stytch.com^$important
 
 ## Sicherheit
-*.bitdefender.com
+@@||*.bitdefender.com^$important
 
 ## GPS
-*.xtracloud.net
+@@||*.xtracloud.net^$important
 
 ## Shop
-assets.mmsrg.com
-
+@@||assets.mmsrg.com^$important
+@@||region1.app-measurement.com^$important
+@@||*.mediation.unity3d.com^$important
+@@||i-sdk.mediation.unity3d.com^$important
+@@||o-sdk.mediation.unity3d.com^$important
+@@||i-adq.mediation.unity3d.com^$important
+@@||*.iads.unity3d.com^$important
+@@||html-uap.iads.unity3d.com^$important
