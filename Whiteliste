@@ -407,6 +407,31 @@
 @@||shepherd.avcdn.net^$important
 @@||tag.adrsbl.io^$important
 
+## Consent/CMP – ohne die hängt oft der Start/Login
+@@||consent.cookiebot.com^$important
+@@||cdn.privacy-mgmt.com^$important      # Sourcepoint CMP
+@@||*.gcp.gvt2.com^$important            # Google Beacons-Edges (Knuddels WebLoader)
+
+## Rokt – App-Flows/Deep Links (Lovoo/Tinder teils via Rokt)
+@@||apps.rokt.com^$important
+
+## Moloco – Kampagnen-/SDK-Init (Lovoo/Tinder Creatives)
+@@||dsp-api.moloco.com^$important
+@@||sdkapi.dsp-api.moloco.com^$important
+@@||sdkopmetrics-eu.dsp-api.moloco.com^$important
+@@||sdkopmetrics-us.dsp-api.moloco.com^$important
+@@||cdn-f.adsmoloco.com^$important
+
+## Unity Mediation / IAds – WebView/HTML Assets (Tinder u. a.)
+@@||*.mediation.unity3d.com^$important
+@@||i-sdk.mediation.unity3d.com^$important
+@@||o-sdk.mediation.unity3d.com^$important
+@@||i-adq.mediation.unity3d.com^$important
+@@||*.iads.unity3d.com^$important
+@@||html-uap.iads.unity3d.com^$important
+
+## Liftoff – zusätzlich zum bereits erlaubten click/impression
+@@||adexp.liftoff.io^$important
 
 
 
