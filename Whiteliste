@@ -397,6 +397,109 @@
 @@||api.sae.systems^$important
 @@||de.xtb.com^$important
 
+## 🌐 Grundlegende Dienste / Sicherheit
+@@||letsencrypt.org^$important
+@@||ocsp.pki.goog^$important
+@@||crl.pki.goog^$important
+@@||accounts.google.com^$important
+@@||oauth2.googleapis.com^$important
+@@||firebaseinstallations.googleapis.com^$important
+
+## 📍 Geo/IP-Auflösung – sicher
+@@||ip-api.com^$important
+@@||ipify.org^$important
+@@||api.ipbase.com^$important
+
+## ⚙️ Consent / Cookies / DSGVO
+@@||consent.cookiebot.com^$important
+@@||imgsct.cookiebot.com^$important
+@@||consentcdn.cookiebot.com^$important
+@@||cdn.privacy-mgmt.com^$important
+@@||api.usercentrics.eu^$important
+@@||aggregator.service.usercentrics.eu^$important
+
+## 💬 Knuddels – Chatfunktion & Verbindung
+@@||chatproxy.knuddels.de^$important
+@@||*.knuddels.de^$important
+@@||cometchat.io^$important
+@@||metrics-eu.cometchat.io^$important
+@@||api.intercom.io^$important
+@@||widget.intercom.io^$important
+@@||cdn.intercom.io^$important
+
+## ❤️ Tinder – Authentifizierung & Basis-CDN
+@@||tinder.com^$important
+@@||cdn.tinder.com^$important
+@@||matchgroup-tinder.adsbynimbus.com^$important   # technisch nötig, kein Werbenetz
+
+## 💜 Boo – Chat/App-Login
+@@||boo.app^$important
+@@||api.boo.app^$important
+@@||cdn.boo.app^$important
+@@||posthog.ideawisegroup.com^$important   # nur Funktions-Telemetrie, kein Tracking
+
+## 💬 Telegram (Chat & API)
+@@||web.telegram.org^$important
+@@||t.me^$important
+@@||telegram.me^$important
+@@||telegram.org^$important
+@@||cdn4.telegram-cdn.org^$important
+@@||cdn5.telegram-cdn.org^$important
+@@||cdn6.telegram-cdn.org^$important
+@@||api.telegram.org^$important
+
+## 💞 Allgemeine Dating-Apps (sicher & notwendig)
+@@||okcupid.com^$important
+@@||cdn.okcimg.com^$important
+@@||lovoo.com^$important
+@@||cdn.lovoo.com^$important
+@@||badoo.com^$important
+@@||cdn.badoo.com^$important
+@@||jaumo.com^$important
+@@||cdn.jaumo.com^$important
+@@||finya.de^$important
+@@||cdn.finya.de^$important
+@@||bildkontakte.de^$important
+@@||cdn.bildkontakte.de^$important
+@@||spin.de^$important
+@@||cdn.spin.de^$important
+
+## 📡 Home Assistant / Geräteverwaltung (falls aktiv)
+@@||analytics-api.home-assistant.io^$important
+@@||alerts.home-assistant.io^$important
+
+## 💾 Basis-CDN & statische Inhalte
+@@||*.cloudfront.net^$important
+@@||cdn.jsdelivr.net^$important
+@@||cdnjs.cloudflare.com^$important
+@@||cdn.jsdelivr.net^$important
+@@||cdn.jsdelivr.net^$important
+@@||cdn.jsdelivr.net^$important
+@@||cdn.jsdelivr.net^$important
+@@||cdn.jsdelivr.net^$important
+@@||cdn.jsdelivr.net^$important
+
+## 📤 N8N & lokale Tools
+@@||n8n.io^$important
+@@||cdn.n8n.io^$important
+@@||updates.n8n.io^$important
+@@||localhost^$important
+@@||127.0.0.1^$important
+@@||::1^$important
+
+## ☁️ Externe APIs (nur sichere, seriöse Anbieter)
+@@||api.openai.com^$important
+@@||api.anthropic.com^$important
+@@||api.openrouter.ai^$important
+@@||huggingface.co^$important
+@@||api.github.com^$important
+@@||raw.githubusercontent.com^$important
+@@||drive.google.com^$important
+@@||www.googleapis.com^$important
+@@||graph.microsoft.com^$important
+@@||login.microsoftonline.com^$important
+
+
 ## Arbeit-HH
 hh-berlin.de/*
 @@||*.hh-berlin.de^$important
