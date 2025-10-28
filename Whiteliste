@@ -728,7 +728,7 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.gesext.de^$important
 *.joyclub.de/*
 *.schlagzeilen.com*
-.sklavenzentrale.com*
+@@||*.sklavenzentrale.com^$important
 @@||fetisch.de^$important
 @@||*.fetisch.de^$important
 @@||*.xhamster.com^$important
