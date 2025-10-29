@@ -1271,3 +1271,39 @@ ulefone.com*
 @@||tracker.airnavradar.com^$important
 @@||datafeeds.airnavradar.com^$important
 @@||img.airnavradar.com^$important
+
+#############################
+## SYSTEM & SICHERHEITS-UPDATES (Linux / Ubuntu)
+#############################
+@@||security.ubuntu.com^$important
+@@||archive.ubuntu.com^$important
+@@||ports.ubuntu.com^$important
+@@||ppa.launchpad.net^$important
+@@||launchpad.net^$important
+@@||snapcraft.io^$important
+@@||api.snapcraft.io^$important
+@@||motd.ubuntu.com^$important
+@@||changelogs.ubuntu.com^$important
+@@||updates.canonical.com^$important
+@@||esm.ubuntu.com^$important
+
+#############################
+## COOKIE- UND CONSENT-MANAGER (erforderlich für Webseitenfunktion)
+#############################
+@@||csp.withgoogle.com^$important
+@@||region1.google-analytics.com^$important
+@@||cdn.cookie-script.com^$important
+@@||cmp.quantcast.com^$important
+@@||geolocation.onetrust.com^$important
+@@||b.delivery.consentmanager.net^$important
+@@||consent.cookiebot.com^$important
+@@||consentcdn.cookiebot.com^$important
+
+#############################
+## API- UND FUNKTIONS-DIENSTE (sicher)
+#############################
+@@||api.blaze.today^$important
+@@||app.voicewave.xyz^$important
+@@||api.posthog.com^$important
+@@||echo-disp.ntp-fireos.com^$important
+@@||data-api.binance.vision^$important   # Nur nötig, falls Binance-Daten aktiv genutzt werden
