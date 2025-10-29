@@ -1346,3 +1346,4 @@ ulefone.com*
 @@||sessions.bugsnag.com^$important
 @@||sentry.io^$important
 
+@@||*.docker.com^$important
