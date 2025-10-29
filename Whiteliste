@@ -1307,3 +1307,42 @@ ulefone.com*
 @@||api.posthog.com^$important
 @@||echo-disp.ntp-fireos.com^$important
 @@||data-api.binance.vision^$important   # Nur nötig, falls Binance-Daten aktiv genutzt werden
+
+#############################
+## KNUDDELS – MOBILE VERBINDUNGEN (Chat + App-Funktion)
+#############################
+@@||chatproxy.knuddels.de^$important
+@@||cdn.knuddels.de^$important
+@@||firebaseinstallations.googleapis.com^$important
+@@||api.mixpanel.com^$important
+@@||cdn.mxpnl.com^$important
+@@||beacons.gvt2.com^$important
+@@||beacons.gcp.gvt2.com^$important
+@@||beacons5.gvt3.com^$important
+@@||*.gvt3.com^$important
+
+# Kommunikations- und App-Frameworks
+@@||cometchat.io^$important
+@@||metrics-eu.cometchat.io^$important
+@@||nexus-websocket-a.intercom.io^$important
+@@||api.intercom.io^$important
+@@||widget.intercom.io^$important
+@@||cdn.intercom.io^$important
+
+# SDK-Initialisierung (benötigt für mobile Knuddels-App)
+@@||shepherd.avcdn.net^$important
+@@||tag.adrsbl.io^$important
+@@||region1.google-analytics.com^$important
+@@||cdn.cookie-script.com^$important
+@@||cmp.quantcast.com^$important
+@@||geolocation.onetrust.com^$important
+@@||consent.cookiebot.com^$important
+@@||consentcdn.cookiebot.com^$important
+
+# Zusätzliche Safe-Dienste (Fehleranalyse und Push)
+@@||api.posthog.com^$important
+@@||app.voicewave.xyz^$important
+@@||browser-intake-datadoghq.com^$important
+@@||sessions.bugsnag.com^$important
+@@||sentry.io^$important
+
