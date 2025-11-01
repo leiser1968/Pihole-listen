@@ -11,6 +11,7 @@
 # - Werbung/Tracking bleibt weitgehend blockiert. Telemetrie ist nur freigegeben, wenn für App-Start/Login typischerweise erforderlich.
 # - Syntax: AdGuard Home Benutzerregeln. Import: AdGuard Home → Filter → Benutzerregeln → Aus Datei importieren.
 # - Anpassbar: Du kannst ganze Blöcke entfernen (z. B. „Optional/Telemetrie“), falls nicht benötigt.
+
 # AdGuard Whitelist
 # Diese Datei enthält alle erlaubten Domains für AdGuard.
 # Duplikate und redundante Einträge wurden entfernt und die Einträge wurden nach Rubriken sortiert.
