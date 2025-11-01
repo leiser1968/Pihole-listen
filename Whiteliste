@@ -1320,6 +1320,63 @@ ulefone.com*
 @@||beacons.gcp.gvt2.com^$important
 @@||beacons5.gvt3.com^$important
 @@||*.gvt3.com^$important
+# Knuddels - Zusätzliche benötigte Domains
+@@||knuddels.de^$important
+@@||www.knuddels.de^$important
+@@||m.knuddels.de^$important
+@@||static.knuddels.de^$important
+@@||apps.knuddels.de^$important
+@@||api.knuddels.de^$important
+@@||ws.knuddels.de^$important
+@@||websocket.knuddels.de^$important
+@@||img.knuddels.de^$important
+@@||media.knuddels.de^$important
+@@||chat.knuddels.de^$important
+
+## Knuddels nutzt auch diese Dienste
+@@||*.firebaseio.com^$important
+@@||*.googleapis.com^$important
+@@||*.googlesyndication.com^$important
+@@||cdn.jsdelivr.net^$important
+@@||*.cloudflare.com^$important
+@@||cdnjs.cloudflare.com^$important
+```
+
+## Für **Popcorn Time**
+# Popcorn Time - Grundlegende Domains
+@@||popcorntime.app^$important
+@@||*.popcorntime.app^$important
+@@||api.popcorntime.app^$important
+@@||cdn.popcorntime.app^$important
+@@||get-popcorn.com^$important
+@@||*.get-popcorn.com^$important
+@@||popcorn-time.to^$important
+@@||*.popcorn-time.to^$important
+@@||popcorntime.sh^$important
+@@||*.popcorntime.sh^$important
+
+# Popcorn Time - API und Content Delivery
+@@||popcorntime-online.tv^$important
+@@||api.apiary.io^$important
+@@||*.themoviedb.org^$important
+@@||api.themoviedb.org^$important
+@@||image.tmdb.org^$important
+@@||*.tvmaze.com^$important
+@@||api.tvmaze.com^$important
+@@||*.fanart.tv^$important
+@@||webservice.fanart.tv^$important
+@@||*.opensubtitles.org^$important
+@@||api.opensubtitles.org^$important
+@@||*.yts.mx^$important
+@@||yts.mx^$important
+@@||*.eztv.re^$important
+@@||eztv.re^$important
+
+# Torrent-Tracker (für Popcorn Time Funktionalität)
+@@||tracker.openbittorrent.com^$important
+@@||tracker.publicbt.com^$important
+@@||tracker.istole.it^$important
+@@||tracker.ccc.de^$important
 
 # Kommunikations- und App-Frameworks
 @@||cometchat.io^$important
@@ -1347,3 +1404,66 @@ ulefone.com*
 @@||sentry.io^$important
 
 @@||*.docker.com^$important
+
+# YouTube - Zusätzliche wichtige Domains
+@@||googlevideo.com^$important
+@@||*.googlevideo.com^$important
+@@||yt3.ggpht.com^$important
+@@||*.ytimg.com^$important
+@@||youtube-ui.l.google.com^$important
+@@||youtubei.googleapis.com^$important
+@@||yt3.googleusercontent.com^$important
+
+### **Amazon Shopping/Video:**
+# Amazon - Fehlende wichtige Domains
+@@||*.cloudfront.net^$important
+@@||images-eu.ssl-images-amazon.com^$important
+@@||m.media-amazon.com^$important
+@@||*.media-amazon.com^$important
+@@||completion.amazon.de^$important
+@@||unagi.amazon.de^$important
+@@||aax-eu.amazon-adsystem.com^$important
+@@||*.primevideo.com^$important
+@@||*.prime-video.com^$important
+
+### **Shopping allgemein (für Wish, eBay, etc.):**
+# PayPal (für viele Shops wichtig)
+@@||*.paypal.com^$important
+@@||*.paypalobjects.com^$important
+
+# Klarna (Zahlungsdienstleister)
+@@||*.klarna.com^$important
+@@||*.klarnacdn.net^$important
+@@||*.klarna.net^$important
+
+### **Deutsche Shops/Dienste:**
+# DHL - Zusätzliche Tracking-Domains
+@@||*.dhl.de^$important
+@@||sendungsverfolgung.dhl.de^$important
+
+# Sparkasse/Banking
+@@||*.sparkasse.de^$important
+@@||banking.berliner-sparkasse.de^$important
+
+# MediaMarkt/Saturn (fehlt komplett)
+@@||*.mediamarkt.de^$important
+@@||*.saturn.de^$important
+@@||assets.mmsrg.com^$important
+
+
+### **Microsoft/Windows Updates:**
+# Microsoft - Wichtige fehlende Domains
+@@||*.windows.com^$important
+@@||*.microsoft.com^$important
+@@||*.windowsupdate.com^$important
+@@||*.msftconnecttest.com^$important
+@@||*.office.com^$important
+@@||*.office365.com^$important
+```
+
+### **Allgemeine CDNs (für viele Shops/Videos wichtig):**
+# CDNs die oft benötigt werden
+@@||*.akamaihd.net^$important
+@@||*.akamaized.net^$important
+@@||*.fastly.net^$important
+@@||*.cloudflare.com^$important
