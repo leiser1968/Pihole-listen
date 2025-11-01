@@ -214,6 +214,7 @@
 @@||cdn.joyclub.de^$important
 @@||consent.joyclub.de^$important
 @@||identity.joyclub.com^$important
+@@||*.joyclub.de^$important
 
 # FetLife
 @@||fetlife.com^$important
@@ -428,6 +429,7 @@
 @@||api.intercom.io^$important
 @@||widget.intercom.io^$important
 @@||cdn.intercom.io^$important
+@@||*.intercom.io^$important
 
 ## ❤️ Tinder – Authentifizierung & Basis-CDN
 @@||tinder.com^$important
@@ -1334,6 +1336,7 @@ ulefone.com*
 @@||img.knuddels.de^$important
 @@||media.knuddels.de^$important
 @@||chat.knuddels.de^$important
+@@||*.knuddels.de^$important
 
 ## Knuddels nutzt auch diese Dienste
 @@||*.firebaseio.com^$important
