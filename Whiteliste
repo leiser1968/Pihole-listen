@@ -210,11 +210,14 @@
 @@||cdn.poppen.de^$important
 @@||consent.poppen.de^$important
 @@||usercentrics.eu^$important
+@@||*.poppen.de^$important
 # JoyClub / Joyce
 @@||joyclub.de^$important
 @@||cdn.joyclub.de^$important
 @@||consent.joyclub.de^$important
 @@||identity.joyclub.com^$important
+@@||*.joyclub.de^$important
+@@||joyclub.de^$important
 @@||*.joyclub.de^$important
 
 # FetLife
