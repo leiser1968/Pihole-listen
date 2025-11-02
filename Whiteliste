@@ -1,5 +1,5 @@
 # AdGuard Home – Whitelist (vollständig überarbeitet)
-# Datum: 2025-10-15
+# Datum: 02.11.2025
 # Hinweis: Nur Freigaben, keine globalen Allow-All-Regeln. Doppelte/fehlerhafte Einträge bereinigt.
 # Sicherheit: Telemetrie-/Analytics-Dienste sind NICHT pauschal erlaubt – nur funktionskritische SDK-Init/Consent/CDN.
 
