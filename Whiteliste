@@ -211,6 +211,19 @@
 @@||consent.poppen.de^$important
 @@||usercentrics.eu^$important
 @@||*.poppen.de^$important
+@@||www.poppen.de^$important
+@@||static.poppen.de^$important
+@@||cdn.poppen.de^$important
+@@||consent.poppen.de^$important
+@@||usercentrics.eu^$important
+@@||firebaseinstallations.googleapis.com^$important
+@@||firebaseremoteconfig.googleapis.com^$important
+@@||googletagmanager.com^$important
+@@||google-analytics.com^$important
+@@||cdn.usercentrics.eu^$important
+@@||cdn.cookiebot.com^$important
+@@||consent.cookiebot.com^$important
+
 # JoyClub / Joyce
 @@||joyclub.de^$important
 @@||cdn.joyclub.de^$important
@@ -434,6 +447,23 @@
 @@||widget.intercom.io^$important
 @@||cdn.intercom.io^$important
 @@||*.intercom.io^$important
+@@||chatproxy.knuddels.de^$important
+@@||*.knuddels.de^$important
+@@||cdn.knuddels.de^$important
+@@||cdn.chat.knuddels.de^$important
+@@||cdn3.knuddels.de^$important
+@@||cdn4.knuddels.de^$important
+@@||firebaseinstallations.googleapis.com^$important
+@@||firebaseremoteconfig.googleapis.com^$important
+@@||googleapis.com^$important
+@@||beacons.gvt2.com^$important
+@@||beacons.gcp.gvt2.com^$important
+@@||beacons5.gvt3.com^$important
+@@||*.gvt3.com^$important
+@@||cometchat.io^$important
+@@||metrics-eu.cometchat.io^$important
+@@||api.mixpanel.com^$important
+@@||cdn.mxpnl.com^$important
 
 ## ❤️ Tinder – Authentifizierung & Basis-CDN
 @@||tinder.com^$important
