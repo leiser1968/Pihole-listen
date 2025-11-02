@@ -145,107 +145,7 @@
 ############################################################
 @@||api3.siftscience.com^$important
 @@||tps.doubleverify.com^$important
-############################################################
-## 8) Knuddels – Kern & Web-Loader
-############################################################
-@@||chatproxy.knuddels.de^$important
-@@||*.knuddels.de^$important
-@@||.knuddels.de^$important
-@@||firebaseinstallations.googleapis.com^$important
-@@||api.mixpanel.com^$important
-@@||cdn.mxpnl.com^$important
-@@||beacons.gvt2.com^$important
-@@||beacons.gcp.gvt2.com^$important
-@@||beacons5.gvt3.com^$important
-@@||*.gvt3.com^$important
-@@||*.gcp.gvt2.com^$important
-@@||api-eu.mixpanel.com^$important
-@@||cdn.mxpnl.com^$important
-@@||ipapi.co^$important
-@@||consent.cookie-script.com^$important
-@@||cdn4.forter.com^$important
-@@||stats.webscraper.io^$important
-@@||firebaseinstallations.googleapis.com^$important
-@@||firebaseremoteconfig.googleapis.com^$important
-@@||beacons.gvt2.com^$important
-@@||beacons.gcp.gvt2.com^$important
-@@||beacons5.gvt3.com^$important
-@@||*.gvt3.com^$important
-@@||cometchat.io^$important
-@@||metrics-eu.cometchat.io^$important
-@@||nexus-websocket-a.intercom.io^$important
-@@||api.intercom.io^$important
-@@||widget.intercom.io^$important
-@@||cdn.intercom.io^$important
-@@||api-eu.mixpanel.com^$important
-@@||cdn.mxpnl.com^$important
-@@||festream.saasexch.cc^$important
-@@||firebaseinstallations.googleapis.com^$important
-@@||firebaseremoteconfig.googleapis.com^$important
-@@||chatproxy.knuddels.de^$important
-@@||*.knuddels.de^$important
-@@||cometchat.io^$important
-@@||metrics-eu.cometchat.io^$important
-@@||api.intercom.io^$important
-@@||widget.intercom.io^$important
-@@||cdn.intercom.io^$important
-@@||api.honeycomb.io^$important
-@@||trck.ahs.prod-eu.turntable.sonic.advertising.amazon.dev^$important
-@@||api-eu.cometchat.io^$important
-@@||ws-eu.cometchat.io^$important
-@@||knuddels.de^$important
-@@||*.knuddels.de^$important
-@@||chatproxy.knuddels.de^$important
-@@||app-knuddels.de^$important
-@@||api.knuddels.de^$important
-@@||cdn.knuddels.de^$important
-@@||cometchat.io^$important
-@@||api-eu.cometchat.io^$important
-@@||ws-eu.cometchat.io^$important
-@@||metrics-eu.cometchat.io^$important
-@@||firebaseinstallations.googleapis.com^$important
-@@||firebaseremoteconfig.googleapis.com^$important
-@@||firestore.googleapis.com^$important
-@@||fcm.googleapis.com^$important
-@@||firebase-settings.crashlytics.com^$important
-@@||app-measurement.com^$important
-@@||region1.google-analytics.com^$important
-@@||api.mixpanel.com^$important
-@@||api-eu.mixpanel.com^$important
-@@||cdn.mxpnl.com^$important
-@@||cdn.mxpnl.net^$important
-@@||api.honeycomb.io^$important
-@@||cdn4.forter.com^$important
-@@||stats.webscraper.io^$important
-@@||ipapi.co^$important
-@@||ipify.org^$important
-@@||api.ipbase.com^$important
-@@||consent.cookie-script.com^$important
-@@||cdn.cookie-script.com^$important
-@@||beacons.gvt2.com^$important
-@@||beacons.gcp.gvt2.com^$important
-@@||beacons5.gvt3.com^$important
-@@||*.gvt3.com^$important
-@@||trck.ahs.prod-eu.turntable.sonic.advertising.amazon.dev^$important
-@@||api.intercom.io^$important
-@@||widget.intercom.io^$important
-@@||cdn.intercom.io^$important
-@@||nexus-websocket-a.intercom.io^$important
-@@||festream.saasexch.cc^$important
-@@||csp.withgoogle.com^$important
-@@||cmp.quantcast.com^$important
-@@||consentcdn.cookiebot.com^$important
-@@||b.delivery.consentmanager.net^$important
 
-
-
-# CometChat & Intercom – beobachtet bei Knuddels-Flows
-@@||cometchat.io^$important
-@@||metrics-eu.cometchat.io^$important
-@@||nexus-websocket-a.intercom.io^$important
-@@||api.intercom.io^$important
-@@||widget.intercom.io^$important
-@@||cdn.intercom.io^$important
 ############################################################
 ## 9) Lovepoint
 ############################################################
@@ -518,33 +418,6 @@
 @@||cdn.privacy-mgmt.com^$important
 @@||api.usercentrics.eu^$important
 @@||aggregator.service.usercentrics.eu^$important
-
-## 💬 Knuddels – Chatfunktion & Verbindung
-@@||chatproxy.knuddels.de^$important
-@@||*.knuddels.de^$important
-@@||cometchat.io^$important
-@@||metrics-eu.cometchat.io^$important
-@@||api.intercom.io^$important
-@@||widget.intercom.io^$important
-@@||cdn.intercom.io^$important
-@@||*.intercom.io^$important
-@@||chatproxy.knuddels.de^$important
-@@||*.knuddels.de^$important
-@@||cdn.knuddels.de^$important
-@@||cdn.chat.knuddels.de^$important
-@@||cdn3.knuddels.de^$important
-@@||cdn4.knuddels.de^$important
-@@||firebaseinstallations.googleapis.com^$important
-@@||firebaseremoteconfig.googleapis.com^$important
-@@||googleapis.com^$important
-@@||beacons.gvt2.com^$important
-@@||beacons.gcp.gvt2.com^$important
-@@||beacons5.gvt3.com^$important
-@@||*.gvt3.com^$important
-@@||cometchat.io^$important
-@@||metrics-eu.cometchat.io^$important
-@@||api.mixpanel.com^$important
-@@||cdn.mxpnl.com^$important
 
 ## ❤️ Tinder – Authentifizierung & Basis-CDN
 @@||tinder.com^$important
@@ -1424,41 +1297,6 @@ r.bttn.io #Opera Cashback
 @@||echo-disp.ntp-fireos.com^$important
 @@||data-api.binance.vision^$important   # Nur nötig, falls Binance-Daten aktiv genutzt werden
 
-#############################
-## KNUDDELS – MOBILE VERBINDUNGEN (Chat + App-Funktion)
-#############################
-@@||chatproxy.knuddels.de^$important
-@@||cdn.knuddels.de^$important
-@@||firebaseinstallations.googleapis.com^$important
-@@||api.mixpanel.com^$important
-@@||cdn.mxpnl.com^$important
-@@||beacons.gvt2.com^$important
-@@||beacons.gcp.gvt2.com^$important
-@@||beacons5.gvt3.com^$important
-@@||*.gvt3.com^$important
-# Knuddels - Zusätzliche benötigte Domains
-@@||knuddels.de^$important
-@@||www.knuddels.de^$important
-@@||m.knuddels.de^$important
-@@||static.knuddels.de^$important
-@@||apps.knuddels.de^$important
-@@||api.knuddels.de^$important
-@@||ws.knuddels.de^$important
-@@||websocket.knuddels.de^$important
-@@||img.knuddels.de^$important
-@@||media.knuddels.de^$important
-@@||chat.knuddels.de^$important
-@@||*.knuddels.de^$important
-
-## Knuddels nutzt auch diese Dienste
-@@||*.firebaseio.com^$important
-@@||*.googleapis.com^$important
-@@||*.googlesyndication.com^$important
-@@||cdn.jsdelivr.net^$important
-@@||*.cloudflare.com^$important
-@@||cdnjs.cloudflare.com^$important
-```
-
 ## Für **Popcorn Time**
 # Popcorn Time - Grundlegende Domains
 @@||popcorntime.app^$important
@@ -1502,16 +1340,6 @@ r.bttn.io #Opera Cashback
 @@||api.intercom.io^$important
 @@||widget.intercom.io^$important
 @@||cdn.intercom.io^$important
-
-# SDK-Initialisierung (benötigt für mobile Knuddels-App)
-@@||shepherd.avcdn.net^$important
-@@||tag.adrsbl.io^$important
-@@||region1.google-analytics.com^$important
-@@||cdn.cookie-script.com^$important
-@@||cmp.quantcast.com^$important
-@@||geolocation.onetrust.com^$important
-@@||consent.cookiebot.com^$important
-@@||consentcdn.cookiebot.com^$important
 
 # Zusätzliche Safe-Dienste (Fehleranalyse und Push)
 @@||api.posthog.com^$important
@@ -1584,3 +1412,63 @@ r.bttn.io #Opera Cashback
 @@||*.akamaized.net^$important
 @@||*.fastly.net^$important
 @@||*.cloudflare.com^$important
+
+##############################################
+# Knuddels Android – Vollständige Whitelist
+# Stand: 02.11.2025 11:46 CET
+# Zweck: Login, Chat, Push, Bilder, Analysen
+# Quelle: PCAPdroid, AdGuard-Logs, App-Netzwerk
+##############################################
+
+## 🌐 Hauptdomain
+@@||knuddels.de^$important
+@@||*.knuddels.de^$important
+@@||chatproxy.knuddels.de^$important
+@@||fotomeet.knuddels.de^$important
+
+## 🔒 Login-, Sicherheits- & Trackingdienste
+@@||app.adjust.com^$important
+@@||api.adjust.com^$important
+@@||cdn.adjust.com^$important
+@@||adjust.com^$important
+
+## 📊 Mixpanel (Statistiken, Nutzerstatus)
+@@||api.mixpanel.com^$important
+@@||api-eu.mixpanel.com^$important
+@@||cdn.mxpnl.com^$important
+@@||*.mxpnl.com^$important
+
+## 🔥 Firebase (Push & Konfiguration)
+@@||firebaseinstallations.googleapis.com^$important
+@@||firebaseremoteconfig.googleapis.com^$important
+@@||firebaselogging-pa.googleapis.com^$important
+@@||fcmregistrations.googleapis.com^$important
+
+## 💬 CometChat / Intercom (Chat-Kommunikation)
+@@||cometchat.io^$important
+@@||api-eu.cometchat.io^$important
+@@||ws-eu.cometchat.io^$important
+@@||metrics-eu.cometchat.io^$important
+@@||api.intercom.io^$important
+@@||widget.intercom.io^$important
+@@||cdn.intercom.io^$important
+@@||nexus-websocket-a.intercom.io^$important
+
+## 🌍 Standort & IP-Auflösung
+@@||ipapi.co^$important
+@@||ipify.org^$important
+@@||*.ipify.org^$important
+
+## 🍪 Cookie / Consent Management
+@@||consent.cookie-script.com^$important
+@@||cdn.cookie-script.com^$important
+
+## ⚙️ Weitere bekannte SDKs (keine Werbung)
+@@||cdn4.forter.com^$important
+@@||api.honeycomb.io^$important
+@@||stats.webscraper.io^$important
+@@||festream.saasexch.cc^$important
+@@||trck.ahs.prod-eu.turntable.sonic.advertising.amazon.dev^$important
+
+
+
