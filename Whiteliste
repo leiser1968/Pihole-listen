@@ -1469,6 +1469,53 @@ r.bttn.io #Opera Cashback
 @@||stats.webscraper.io^$important
 @@||festream.saasexch.cc^$important
 @@||trck.ahs.prod-eu.turntable.sonic.advertising.amazon.dev^$important
+@@||cdn3.knuddels.de^$important
+@@||cdn4.knuddels.de^$important
+@@||m.knuddels.de^$important
+@@||static.knuddels.de^$important
+@@||apps.knuddels.de^$important
+@@||ws.knuddels.de^$important
+@@||websocket.knuddels.de^$important
+@@||img.knuddels.de^$important
+@@||media.knuddels.de^$important
+@@||chat.knuddels.de^$important
+
+# Google Firebase + Push + Analytics (App-Abhängigkeiten)
+@@||fcm.googleapis.com^$important
+@@||firebase-settings.crashlytics.com^$important
+@@||firestore.googleapis.com^$important
+@@||app-measurement.com^$important
+@@||region1.google-analytics.com^$important
+@@||csp.withgoogle.com^$important
+
+# Intercom + CometChat (Chat-Layer)
+@@||api-eu.cometchat.io^$important
+@@||ws-eu.cometchat.io^$important
+@@||metrics-eu.cometchat.io^$important
+@@||nexus-websocket-a.intercom.io^$important
+@@||api.intercom.io^$important
+@@||widget.intercom.io^$important
+@@||cdn.intercom.io^$important
+@@||*.intercom.io^$important
+
+# Mixpanel Analytics (Login-Statistik)
+@@||api-eu.mixpanel.com^$important
+@@||cdn.mxpnl.com^$important
+@@||cdn.mxpnl.net^$important
+
+# SDKs / Consent
+@@||cdn.cookie-script.com^$important
+@@||cmp.quantcast.com^$important
+@@||consentcdn.cookiebot.com^$important
+@@||consent.cookiebot.com^$important
+@@||geolocation.onetrust.com^$important
+
+# CDN / Sicherheit
+@@||cdn.jsdelivr.net^$important
+@@||*.cloudflare.com^$important
+@@||cdnjs.cloudflare.com^$important
+@@||shepherd.avcdn.net^$important
+@@||tag.adrsbl.io^$important
 
 
 
