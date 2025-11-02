@@ -189,6 +189,10 @@
 @@||api.intercom.io^$important
 @@||widget.intercom.io^$important
 @@||cdn.intercom.io^$important
+@@||api.honeycomb.io^$important
+@@||trck.ahs.prod-eu.turntable.sonic.advertising.amazon.dev^$important
+@@||api-eu.cometchat.io^$important
+@@||ws-eu.cometchat.io^$important
 
 
 # CometChat & Intercom – beobachtet bei Knuddels-Flows
