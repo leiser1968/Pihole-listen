@@ -655,6 +655,7 @@ aax-eu.amazon-ad
 @@||*.helium.io^$important
 @@||*.panther-x.io^$important
 @@||*.binance.com^
+@@||accounts.binance.com^
 @@||*.coinbase.com^$important
 @@||*.helium.com^
 @@||*.heliumfoundation.wtf^$important
