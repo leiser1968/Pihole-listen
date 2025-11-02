@@ -150,6 +150,7 @@
 ############################################################
 @@||chatproxy.knuddels.de^$important
 @@||*.knuddels.de^$important
+@@||.knuddels.de^$important
 @@||firebaseinstallations.googleapis.com^$important
 @@||api.mixpanel.com^$important
 @@||cdn.mxpnl.com^$important
@@ -539,10 +540,10 @@
 
 
 ## Arbeit-HH
-hh-berlin.de/*
+@@||hh-berlin.de^
 @@||*.hh-berlin.de^$important
 @@||*.hhdom.hh-berlin.de^$important
-@hhdom.hh-berlin.de
+@@||hhdom.hh-berlin.de^
 @@||backupsrv.hhdom.hh-berlin.de^$important
 @@||db-server.hhdom.hh-berlin.de^$important
 @@||dc3.hhdom.hh-berlin.de^$important
@@ -563,26 +564,25 @@ hh-berlin.de/*
 @@||hhberlin.cloud.veda.net^$important
 
 ## Soziale Medien
-@||t.me^$wichtig
-t.me/*
+@@||t.me^$important
+@@||t.me^
 @@||twitter.com^$important
 
 ## E-Commerce
 @@||*.ebesucher.de^$important
 @@||*.ganzoffen.de^$important
-*.aliexpress.com/*
-login.aliexpress.com/buyer.htm
+@@||*.aliexpress.com^$important
 @@||www.aliexpress.com^$important
 @@||*.amazon-adsystem.com^$important
-*.amazon.de*
+@@||*.amazon.de^
 @@||*.amazonpreview.com^$important
 @@||*.amazontrast.com^$important
 @@||*.media-amazon.com^$important
-@||mads-eu.amazon.com^$wichtig
+@||mads-eu.amazon.come^$important
 @@||Fertigstellung.amazon.com^$important
 @@||*.ebay.de^$important
 @@||Mobileanalytics.us-east-1.amazonaws.com^$important
-@||alexa.eu.gateway.devices.a2z.com^$wichtig
+@||alexa.eu.gateway.devices.a2z.come^$important
 @@||*.us-east-1.prod.service.minerva.devices.a2z.com^$important
 @@||Updates.amazon.com^$important
 aax-eu.amazon-ad
@@ -614,7 +614,7 @@ aax-eu.amazon-ad
 
 ## Videostreaming
 @@||*.netflix.com^$important
-*.ardmediathek.d
+@@||*.ardmediathek.de^
 @@||*.crunchyroll.com^$important
 @@||*.disneyplus.com^$important
 @@||*.disney.com^$important
@@ -633,7 +633,7 @@ aax-eu.amazon-ad
 @@||*.waipu.tv^$important
 @@||*.zattoo.com^$important
 @@||*.zdf.de^$important
-_https._tcp.repo.skype.com
+@@||*.skype.com^$important
 @@||api.promotions.skype.com^$important
 @@||consumer.antitlement.skype.com^$important
 @@||freevee.com^$important
@@ -663,7 +663,6 @@ _https._tcp.repo.skype.com
 @@||*.googlesyndication.com^$important
 @@||*.googlevideo.com^$important
 @@||Benutzerstandort.googleapis.com^$important
-Benutzerstandort.googleapis.com #Google Standort
 @@||Geschichte.google.com^$important
 @@||Schriftarten.googleapis.com^$important
 @@||Tools.google.com^$important
@@ -682,7 +681,7 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.cloudflare.com^$important
 @@||*.dropbox.com^$important
 @@||*.fastly.net^$important
-*.gmx.net*
+@@||*.gmx.net^$important
 @@||*.nextcloud.com^$important
 @@||*.strato.com^$important
 @@||*.stratoserver.net^$important
@@ -702,13 +701,13 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.crypto.com^$important
 @@||*.helium.io^$important
 @@||*.panther-x.io^$important
-*.binance.com*
+@@||*.binance.com^
 @@||*.coinbase.com^$important
-*.helium.com/*
+@@||*.helium.com^
 @@||*.heliumfoundation.wtf^$important
-*.unmineable.com*
-@||api.bittrex.com^$wichtig
-@||socket-v3.bittrex.com^$wichtig
+@@||*.unmineable.com^
+@@||api.bittrex.com^important
+@@||socket-v3.bittrex.com^$important
 @@||Blockchain.helium.io^$important
 @@||Explorer-api.helium.com^$important
 @@||Explorer.helium.com^$important
@@ -761,11 +760,10 @@ Benutzerstandort.googleapis.com #Google Standort
 ## Erotik
 @@||*.eronity.com^$important
 @@||*.fetischpartner.com^$important
-*.gesext.de/*
-*.poppen.de/*
+@@||*.poppen.de^
 @@||*.gesext.de^$important
-*.joyclub.de/*
-*.schlagzeilen.com*
+@@||*.joyclub.de^
+@@||*.schlagzeilen.com^
 @@||*.sklavenzentrale.com^$important
 @@||fetisch.de^$important
 @@||*.fetisch.de^$important
@@ -808,7 +806,7 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.growatt.com^$important
 ## KI und Haussteuerung
 @@||*.heimassistent.io^$important
-*.homematic.com*
+@@||*.homematic.com^
 @||de.watch.iot.mi.com
 @@||homematic.com^$important
 # Anmeldung groq.com
@@ -846,19 +844,19 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.dynv6.com^$important
 @@||*.dynv6.net^$important
 @@||*.e-dis-netz.de^$important
-*.f2pool.com*
+@@||*.f2pool.com^
 @@||*.focus.de^$important
 @@||*.lgappstv.com^$important
-*.myfritz.net*
-*.opera.com*
+@@||*.myfritz.net^
+@@||*.opera.com^
 @@||wextap.com^$important
 @@||*.shopback.com^$important
 @@||*.rakuten.com^$important
 @@||shopback.go2cloud.org^$important
 @@||*.raspberrypi.org^$important
-*.seki92-home.de*
-*.selfhost.eu*
-*.almisoft.de*
+@@||*.seki92-home.de^
+@@||*.selfhost.eu^
+@@||*.almisoft.de^
 @@||*.shelly.cloud^$important
 @@||*.temu.com^$important
 @@||*.xiaomi.net^$important
@@ -876,17 +874,17 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.atudo.net^$important
 @@||*.audible.de^$important
 @@||*.avast.com^$important
-*.avm.de*
+@@||*.avm.de^
 @@||*.awin1.com^$important
 @@||*.banggood.com^$important
 @@||*.barclaycard.de^$important
 @@||*.bild.de^$important
-*.bonicstats.com*
+@@||*.bonicstats.com^
 @@||*.booking.com^$important
 @@||*.braze.eu^$important
 @@||*.bringmeister.de^$important
 @@||*.buhl.de^$important
-*.buhl.de*
+@@||*.buhl.de^
 @@||*.cccambox.com^$important
 @@||*.cccamfox.com^$important
 @@||*.chinapost.com.cn^$important
@@ -895,7 +893,7 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.computerbild.de^$important
 @@||*.computerwoche.de^$important
 @@||*.conrad.com^$important
-*.cryptobrowser.site*
+@@||*.cryptobrowser.site^
 @@||*.dartsearch.net^$important
 @@||*.degoo.com^$important
 @@||*.disneystreaming.com^$important
@@ -905,15 +903,15 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.eis.de^$important
 @@||*.elv.com^$important
 @@||*.eon.de^$important
-*.eq-3.de*
+@@||*.eq-3.de^
 @@||*.eset.com^$important
 @@||*.fedex.com^$important
-*.fitbit.com*
+@@||*.fitbit.com^
 @@||*.freebitco.in^$important
 @@||*.geforce.com^$important
 @@||*.gstatic.com^$important
 @@||*.hbo.com^$important
-*.hidrive.com*
+@@||*.hidrive.com^
 @@||*.hsforms.com^$important
 @@||*.hsforms.net^$important
 @@||*.immowelt.de^$important
@@ -925,10 +923,10 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.kik.com^$important
 @@||*.klarna.com^$important
 @@||*.kristall-therme-ludwigsfelde.de^$important
-*.kucoin.com/*
+@@||*.kucoin.com^
 @@||*.lenovomm.com^$important
-*.lgsmartad.com*
-*.lidl.de*
+@@||*.lgsmartad.com^
+@@||*.lidl.de^
 @@||*.lieferando.de^$important
 @@||*.line-apps.com^$important
 @@||*.line.naver.jp^$important
@@ -938,7 +936,7 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.lovoo.com^$important
 @@||*.magenta.tv^$important
 @@||*.malwarebytes.com^$important
-*.market.xiaomi.com*
+@@||*.market.xiaomi.com^
 @@||*.markt.de^$important
 @@||*.mediamarkt.de^$important
 @@||*.miui.com^$important
@@ -949,38 +947,38 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.nflximg.com^$important
 @@||*.nflxso.net^$important
 @@||*.nflxvideo.net^$important
-*.nhgnet.de*
+@@||*.nhgnet.de^$important
 @@||*.ntp.org^$important
 @@||*.nvidia.com^$important
 @@||*.octoprint.org^$important
-*.omronconnect.com*
-*.onesignal.com #Übermittelte Kundennachrichten Die marktführerde Selbstversorgung-Kundenbindungslösung für Push-Benachrichtigungen, E-Mail, SMS und In-App
+@@||*.omronconnect.com^
+@@||*.onesignal.com^ #Übermittelte Kundennachrichten Die marktführerde Selbstversorgung-Kundenbindungslösung für Push-Benachrichtigungen, E-Mail, SMS und In-App
 @@||*.opera-api.com^$important
-*.operacdn.com*
+@@||*.operacdn.com^
 @@||*.origin.com^$important
 @@||*.osp.opera.software^$important
 @@||*.outfittery.de^$important
 @@||*.pcwelt.de^$important
-*.pinterest.com*
-*.pinterest.de*
+@@||*.pinterest.com^
+@@||.pinterest.de^
 @@||www.pinterest.com^$important
-*.poloniex.com*
+@@||*.poloniex.com^
 @@||*.portainer.io^$important
-*.qnap.com.*
+@@||*.qnap.com^
 @@||*.reddit.com^$important
 *.redirekts.tradedoubler.com*
 @@||*.revolut.com^$important
 @@||*.shein.com^$important
 @@||*.simplycore.de^$important
 @@||*.solanaflix.com^$important
-*.sony.com*
-*.sony.de*
-*.sony.net*
+@@||*.sony.com^
+@@||*.sony.de^
+@@||*.sony.net^
 @@||*.spaceweatherlive.com^$important
 @@||*.spamassassin.org^$important
 @@||*.spotify.com^$important
 @@||*.steampowered.com^$important
-*.taobao.com #Arcctv Webcam Swinger
+@@||*.taobao.com^ #Arcctv Webcam Swinger
 @@||*.team-chat.com^$important
 @@||*.teams.microsoft.com^$important
 @@||*.teamstatic.com^$important
@@ -992,31 +990,31 @@ Benutzerstandort.googleapis.com #Google Standort
 @@||*.whatsapp.net^$important
 @@||*.worldofwarships.eu^$important
 @@||*.wunderground.com^$important
-*.xiaomi.com*
-*.xiaomi.net*
+@@||*.xiaomi.com^
+@@||*.xiaomi.net^
 @@||*.youtube-nocookie.com^$important
 @@||*.youtube.com^$important
 @@||*.ytimg.com^$important
 @@||313589.solanaflix.com^$important
 @@||8ghy.adj.st^$important
-@|| alitems.co ^ $ wichtig
-@|| www.shareasale.com ^ $ wichtig
-@||alitems.co^$wichtig
-@||api.onesignal.com^$wichtig
-@||asset.conrad.com^$wichtig
-@||redirekts.tradedoubler.com^$wichtig
-@||strava.com
-@||www.emjcd.com^$wichtig
-@||www.shareasale.com^$wichtig
-@||www.tkqlhce.com^$wichtig
-@||www.zenaps.com^$wichtig
-Aktivität.windows.com
+@@||alitems.cot^$important
+@@|| www.shareasale.comt^$important
+@@||alitems.coe^$important
+@@||api.onesignal.comt^$important
+@@||asset.conrad.cot^$important
+@@||redirekts.tradedoubler.come^$important
+@@||strava.com^
+@@||www.emjcd.comt^$important
+@@||www.shareasale.cot^$important
+@@||www.tkqlhce.comt^$important
+@@||www.zenaps.comt^$important
+@@||Aktivität.windows.com^
 @@||Alitems.com^$important
 @@||Asset.conrad.com^$important
 @@||Browser-update.org^$important
 @@||Browser.pipe.aria.microsoft.com^$important
 @@||Cutt.ly^$important
-Datenbank.clamav.net/*
+@@||Datenbank.clamav.net^
 @@||Demo.terminkalender.top^$important
 @@||Disneystreaming.com^$important
 @@||Download.fenstersupdate.com^$important
@@ -1025,8 +1023,8 @@ Datenbank.clamav.net/*
 @@||Erweiterungsupdates.opera.com^$important
 @@||Links.12gebrauchtwagen.de^$important
 @@||Magenta.tv^$important
-Münzzahlungen.netto
-QuickConnect.to/joerg1968
+@@||Münzzahlungen.netto^
+@@||QuickConnect.to/joerg1968^
 @@||Schriftarten.gstatic.com^$important
 @@||Sls.update.microsoft.com^$important
 @@||Tags.adsafety.net^$important
@@ -1036,22 +1034,22 @@ QuickConnect.to/joerg1968
 @@||Update.qnap.com^$important
 @@||Wetter.com^$important
 @@||Widgets.trusTedsHopfens.com^$important
-_http._tcp.archive.canonical.com
-_http._tcp.ddebs.ubuntu.com
-_http._tcp.debian.charite.de
-_http._tcp.ftp.agdsn.de
-_http._tcp.ftp.hosteurope.de
-_http._tcp.linux.teamviewer.com
-_http._tcp.mirror.bauhuette.fh-aachen.de
-_http._tcp.security.ubuntu.com
+@@||archive.canonical.com^
+@@||ddebs.ubuntu.com^
+@@||debian.charite.de^
+@@||ftp.agdsn.de^
+@@||ftp.hosteurope.de^
+@@||linux.teamviewer.com^
+@@||mirror.bauhuette.fh-aachen.de^
+@@||security.ubuntu.com^
 @@||ad.doubleclick.net^$important
 @@||ad.dyntracker.de^$important
-ad.dyntracker.de #Opera Cashback ELV
+@@||ad.dyntracker.de^ #Opera Cashback ELV
 @@||ad.flipboard.com^$important
 @@||adguard.com^$important
 @@||adsbexchange.com^$important
 @@||ae01.alicdn.com^$important
-antpool.com*
+@@||antpool.com^
 @@||api.cortana.ai^$important
 @@||api.eu-west-1.aiv-delivery.net^$important
 @@||api.gameanalytics.com^$important
@@ -1060,7 +1058,7 @@ antpool.com*
 @@||api.jwplayer.com^$important
 @@||api.prod.boo.dating^$important
 @@||api.radarbox.com^$important
-app.temu.com/*
+@@||app.temu.com^
 @@||atlas.solanaflix.com^$important
 @@||autoupdate.geo.opera.com^$important
 @@||axa.de^$important
@@ -1074,7 +1072,7 @@ app.temu.com/*
 @@||clientmetrics-augmentum.kik.com^$important
 @@||clientmetrics.kik.com^$important
 @@||clkde.tradedoubler.com^$important
-clkde.tradedoubler.com*
+@@||clkde.tradedoubler.com^
 @@||cloud.degoo.com^$important
 @@||comdirect.de^$important
 @@||ctldl.windowsupdate.com^$important
@@ -1086,7 +1084,7 @@ clkde.tradedoubler.com*
 @@||easyusinfo.us-east-1.log.aliyuncs.com^$important
 @@||evernote.com^$important
 @@||forum.qnapclub.de^$important
-freedownloadmanager.org*
+@@||freedownloadmanager.org^
 @@||fsr.lenovomm.com^$important
 @@||g.live.com^$important
 @@||gdatasecurity.de^$important
@@ -1097,8 +1095,8 @@ freedownloadmanager.org*
 @@||hbo.com^$important
 @@||heartbeat.dm.origin.com^$important
 @@||hotspotty.net^$important
-http://313589.solanaflix.com:8080/
-http://atlas.solanaflix.com
+@@||313589.solanaflix.com:8080^
+@@||atlas.solanaflix.com^
 @@||infoservice.heise.de^$important
 @@||joerg1968.direct.quickconnect.to^$important
 @@||joerg1968.synology.me^$important
@@ -1112,7 +1110,7 @@ http://atlas.solanaflix.com
 @@||mailtrack.io^$important
 @@||mandrillapp.com^$important
 @@||megatron.igraal.com^$important
-neje.club*
+@@||neje.club^
 @@||news.bueromarkt-ag.de^$important
 @@||nflxext.com^$important
 @@||nflximg.com^$important
@@ -1148,7 +1146,7 @@ r.bttn.io #Opera Cashback
 @@||tk.kaufda.de^$important
 @@||trackingapi.kaufda.de^$important
 @@||ue.flipboard.com^$important
-ulefone.com*
+@@||ulefone.com^
 @@||update.appwork.org^$important
 @@||update.easeus.com^$important
 @@||updateexte.services.openoffice.org^$important
@@ -1238,7 +1236,7 @@ ulefone.com*
 @@||youtube-nocookie.com^$important
 @@||youtube.com^$important
 @@||ytimg.com^$important
-Ökosia.org
+@@||Ökosia.org^
 @@||*.yahoo.com^$important
 @@||api.onesignal.com^$important
 @@||johnsad.ventures^$important
