@@ -177,6 +177,19 @@
 @@||api.intercom.io^$important
 @@||widget.intercom.io^$important
 @@||cdn.intercom.io^$important
+@@||api-eu.mixpanel.com^$important
+@@||cdn.mxpnl.com^$important
+@@||festream.saasexch.cc^$important
+@@||firebaseinstallations.googleapis.com^$important
+@@||firebaseremoteconfig.googleapis.com^$important
+@@||chatproxy.knuddels.de^$important
+@@||*.knuddels.de^$important
+@@||cometchat.io^$important
+@@||metrics-eu.cometchat.io^$important
+@@||api.intercom.io^$important
+@@||widget.intercom.io^$important
+@@||cdn.intercom.io^$important
+
 
 # CometChat & Intercom – beobachtet bei Knuddels-Flows
 @@||cometchat.io^$important
