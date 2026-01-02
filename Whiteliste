@@ -82,6 +82,7 @@
 @@||cdn.liftoff.io^$important
 @@||adexp.liftoff.io^$important
 @@||matchgroup-tinder.adsbynimbus.com^$important
+@@||*.k-apps.de^important
 # Mintegral / RayJump Kette (SDK-Init)
 @@||check-tcp.rayjump.com^$important
 @@||lazy-tcp.rayjump.com^$important
