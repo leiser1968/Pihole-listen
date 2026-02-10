@@ -351,6 +351,7 @@
 @@||drive.google.com^$important
 @@||www.googleapis.com^$important
 @@||sheets.googleapis.com^$important
+@@||telemetry.googleapis.com^$important
 @@||graph.microsoft.com^$important
 @@||outlook.office365.com^$important
 @@||login.microsoftonline.com^$important
