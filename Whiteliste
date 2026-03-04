@@ -1632,6 +1632,7 @@ r.bttn.io #Opera Cashback
 @@||checkout.stripe.com^$important
 @@||openclaw.ai^$important
 @@||wry-manatee-359.convex.site^$important
+@@||*.convex.site^$important
 
 #BTCUhr
 @@||*.nmminer.com^$important
