@@ -29,7 +29,7 @@
 
 ## E-Commerce
 @@||*.aliexpress.com^$important
-@@||*.wextap.co^$important
+@@||*.wextap.com^$important
 @@||*.amazon-adsystem.com^$important
 @@||*.amazonpreview.com^$important
 @@||*.amazontrast.com^$important
