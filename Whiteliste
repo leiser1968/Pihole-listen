@@ -8,7 +8,7 @@
 @@||*.huami.com^$important
 @@||backupsrv.hhdom.hh-berlin.de^$important
 @@||db-server.hhdom.hh-berlin.de^$important
-@@||dc3.hhdom.hh-berlin.de^$important
+@@||dc3.hhdom.hh-berlin.de^$importantal
 @@||dc4.hhdom.hh-berlin.de^$important
 @@||gdata.hhdom.hh-berlin.de^$important
 @@||hh-berlin.de^$important
@@ -29,6 +29,7 @@
 
 ## E-Commerce
 @@||*.aliexpress.com^$important
+@@||*.wextap.co^$important
 @@||*.amazon-adsystem.com^$important
 @@||*.amazonpreview.com^$important
 @@||*.amazontrast.com^$important
