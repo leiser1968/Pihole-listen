@@ -1214,3 +1214,61 @@
 @@||hotjar.com^$important                                                                                   
 @@||script.hotjar.com^$important
 
+# === Crypto Exchanges ===
+@@||binance.com^
+@@||binance.us^
+@@||binance.org^
+@@||crypto.com^
+@@||coinbase.com^
+@@||kraken.com^
+@@||kucoin.com^
+@@||bybit.com^
+@@||okx.com^
+@@||gate.io^
+@@||huobi.com^
+@@||bitfinex.com^
+@@||bitmex.com^
+# === Mining Pools (Cudo, Antminer) ===
+@@||cudoplatform.com^
+@@||cudos.org^
+@@||cudo.network^
+@@||antpool.com^
+@@||btc.com^
+@@||f2pool.com^
+@@||luxor.tech^
+@@||nicehash.com^
+@@||2miners.com^
+@@||ethermine.org^
+@@||flexpool.io^
+@@||nanopool.org^
+@@||hiveon.net^
+@@||hiveos.farm^
+# === Umbrel ===
+@@||getumbrel.com^
+# === VPN/DynDNS ===
+@@||ddns.net^
+@@||dyndns.org^
+@@||dyndns.com^
+@@||noip.com^
+@@||no-ip.com^
+@@||spdyn.de^
+@@||dynu.com^
+@@||afraid.org^
+@@||cudominer.com^
+@@||cudo.io^
+@@||htx.com^
+@@||gemini.com^
+@@||mexc.com^
+@@||bitget.com^
+@@||poloniex.com^
+@@||braiins.com^
+@@||slushpool.com^
+@@||viabtc.com^
+@@||foundryusapool.com^
+@@||emcd.io^
+@@||miningpoolhub.com^
+@@||pool.bitcoin.com^
+@@||umbrel.com^
+
+# Lotto
+@@||www.tipp24.de^$important
