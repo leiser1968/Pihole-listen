@@ -431,6 +431,9 @@
 @@||*.temu.com^$important
 @@||*.thunderbird.net^$important
 @@||*.tipp24.com^$important
+@@||www.tipp24.de^$important
+@@||img.tipp24.de^$important
+@@||lc.tipp24.de^$important
 @@||*.update.microsoft.com^$important
 @@||*.volla.online^$important
 @@||*.vpnunlimitedapp.com^$important
