@@ -1299,3 +1299,10 @@
 @@||login-dhl-de.api.eu.janrain.com^$important
 @@||quality.dpdhl.com^$important
 @@||dhl.de.ssl.sc.omtrdc.net^$important
+
+! --- Openbank (Online-Banking & App) ---
+@@||wup.openbank.de^$important
+@@||logs.openbank.de^$important
+
+! --- OPNsense Firewall (Update- & Systemdienste) ---
+@@||opnsense.org^$important
