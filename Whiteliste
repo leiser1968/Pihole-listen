@@ -1306,3 +1306,16 @@
 
 ! --- OPNsense Firewall (Update- & Systemdienste) ---
 @@||opnsense.org^$important
+
+! --- Plex lokaler Zugriff (umgeht den Rebind-Schutz für Plex) ---
+@@||plex.direct^$important
+
+! --- Lokale Reverse-DNS-Auflösung (PTR) zulassen ---
+@@||in-addr.arpa^$important
+
+! --- Optionale URL-Shortener (bei kaputten Links) ---
+@@||api.ffm.to^$important
+@@||tinu.be^$important
+
+! --- Optional: Trustpilot Widgets reparieren ---
+@@||widget.trustpilot.com^$important
