@@ -617,6 +617,8 @@
 @@||www.commerzbank.de^$important
 @@||www.commerzbanking.de^$important
 @@||sentry.c24.de^$important
+statistics.c24.de
+sentry.c24.de
 @@||www.computerbild.de^$important
 @@||www.dhl.de^$important
 @@||www.dkb.de^$important
@@ -1320,3 +1322,5 @@
 
 ! --- Optional: Trustpilot Widgets reparieren ---
 @@||widget.trustpilot.com^$important
+
+
