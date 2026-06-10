@@ -622,6 +622,15 @@ sentry.c24.de
 @@||api.kunden.openbankpay.com^$important
 wup.openbank.de
 logs.openbank.de
+@@||openbank.de^
+@@||openbank.com^
+@@||openbankpay.com^
+combine.urbanairship.com
+atm-settingsfe-prod-geo2.trafficmanager.net
+browser-intake-us5-datadoghq.com
+http-intake.logs.us5.datadoghq.com
+@@||santander.de^
+@@||santander.com^
 settings.crashlytics.com
 stat.ainvest.com
 northeurope-0.in.applicationinsights.azure.com
