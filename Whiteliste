@@ -625,6 +625,10 @@ logs.openbank.de
 settings.crashlytics.com
 stat.ainvest.com
 northeurope-0.in.applicationinsights.azure.com
+ws.pusherapp.com
+atm-settingsfe-prod-geo2.trafficmanager.net
+browser-intake-us5-datadoghq.com
+http-intake.logs.us5.datadoghq.com
 @@||www.computerbild.de^$important
 @@||www.dhl.de^$important
 @@||www.dkb.de^$important
