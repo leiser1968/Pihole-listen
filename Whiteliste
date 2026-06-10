@@ -620,6 +620,11 @@
 statistics.c24.de
 sentry.c24.de
 @@||api.kunden.openbankpay.com^$important
+wup.openbank.de
+logs.openbank.de
+settings.crashlytics.com
+stat.ainvest.com
+northeurope-0.in.applicationinsights.azure.com
 @@||www.computerbild.de^$important
 @@||www.dhl.de^$important
 @@||www.dkb.de^$important
