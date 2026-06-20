@@ -507,6 +507,9 @@
 token.awswaf.com
 cdn.growthbook.io
 braze.eu
+xtracloud.net
+appsflyer.com
+crashlytics.com
 @@||cloud.degoo.com^$important
 @@||comdirect.de^$important
 @@||cta-service-cms2.hubspot.com^$important
