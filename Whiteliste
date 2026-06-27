@@ -2,6 +2,9 @@
 # Datum: 06.03.2026
 # Hinweis: Doppelte Einträge entfernt, nach Rubriken sortiert
 
+challenges.cloudflare.com
+turnstile.cloudflare.com
+
 ## Arbeit-HH
 @@||*.hh-berlin.de^$important
 @@||*.hhdom.hh-berlin.de^$important
