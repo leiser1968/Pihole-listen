@@ -1376,3 +1376,4 @@ sentry.jaumo.dev
 @@||cdn-lfs.huggingface.co^$important
 @@||huggingface.co^$important
 @@||hf.co^$important
+@@||us.aws.cdn.hf.co^
