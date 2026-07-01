@@ -1370,4 +1370,5 @@ sentry.jaumo.dev
 # KI
 @@||hf.co^
 @@||huggingface.co^
-
+@@||hf.co^$important
+@@||huggingface.co^$important
