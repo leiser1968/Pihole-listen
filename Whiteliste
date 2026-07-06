@@ -277,6 +277,7 @@ turnstile.cloudflare.com
 
 ## Alexa und Smart Devices
 @@||*.growatt.com^$important
+openapi.growatt.com
 @@||*.lgtvsdp.com^$important
 @@||*.philips-hue.com^$important
 @@||*.tuya.com^$important
