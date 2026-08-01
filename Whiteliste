@@ -1378,3 +1378,5 @@ sentry.jaumo.dev
 @@||huggingface.co^$important
 @@||hf.co^$important
 @@||us.aws.cdn.hf.co^
+
+**||*.joyclub.de/*
