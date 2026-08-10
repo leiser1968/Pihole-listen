@@ -1379,4 +1379,5 @@ sentry.jaumo.dev
 @@||hf.co^$important
 @@||us.aws.cdn.hf.co^
 
-**||*.joyclub.de/*
+@@||oyclub.de^$important
+@@||joyclub.de/profile^$important
