@@ -1382,3 +1382,8 @@ sentry.jaumo.dev
 @@||oyclub.de^$important
 @@||oyclub.com^$important
 @@||joyclub.de/profile^$important
+
+@@||hf.co^$important
+@@||huggingface.co^$important
+@@||us.aws.cdn.hf.co^$important
+@@||cdn-lfs.huggingface.co^$important
