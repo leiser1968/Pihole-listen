@@ -369,6 +369,11 @@
 @@||websocket.knuddels.de^$important
 @@||wilddate.de^$important
 @@||wooplusapp.s3.amazonaws.com^$important
+@@||softwareupdates.amazon.com^$important
+@@||*.ntp-fireos.com^$important
+@@||fireoscaptiveportal.com^$important
+@@||*.amcs-tachyon.com^$important
+@@||*.edgesuite.net^$important
 @@||ws.knuddels.de^$important
 @@||www.ashleymadison.com^$important
 @@||www.bildkontakte.de^$important
