@@ -1209,6 +1209,7 @@
 
 ## E-Mail-Anbieter
 @@||web.de^$important
+@@||*.gmx.net^$important
 
 ## Uptime-/Ping-Monitoring
 @@||beepong.net^$important
