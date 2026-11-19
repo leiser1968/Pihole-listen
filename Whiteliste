@@ -49,7 +49,6 @@
 @@||2miners.com^$important
 @@||amboss.space^$important
 @@||antpool.com^$important
-@@||bigdata-scfx-push.kucoin.plus^$important
 @@||binance.com^$important
 @@||binance.org^$important
 @@||binance.us^$important
@@ -121,8 +120,8 @@
 @@||viabtc.com^$important
 @@||www.bitcoin.de^$important
 @@||www.getmonero.org^$important
-@@||www.kucoin.plus^$important
 @@||www.myetherwallet.com^$important
+@@||kucoin.plus^$important
 
 ## Videostreaming
 @@||cccambox.com^$important
@@ -417,6 +416,7 @@
 @@||fireoscaptiveportal.com^$important
 @@||amcs-tachyon.com^$important
 @@||edgesuite.net^$important
+@@||hacs.xyz^$important
 
 ## Flugtracking (RadarBox / AirNav / ADS-B)
 @@||adsbexchange.com^$important
@@ -670,7 +670,6 @@
 @@||analytics-tcp.mintegral.net^$important
 @@||api-eu.mixpanel.com^$important
 @@||api.adapty.io^$important
-@@||api.blaze.today^$important
 @@||api.eu-west-1.aiv-delivery.net^$important
 @@||api.eu.amplitude.com^$important
 @@||api.instabug.com^$important
@@ -679,7 +678,6 @@
 @@||api.mixpanel.com^$important
 @@||api.onesignal.com^$important
 @@||api.snapkit.com^$important
-@@||app.voicewave.xyz^$important
 @@||applovin.com^$important
 @@||appsflyer.com^$important
 @@||appsflyersdk.com^$important
@@ -790,13 +788,14 @@
 @@||www.ems.com.cn^$important
 @@||www.meetup.com^$important
 @@||yoomee.love^$important
+@@||blaze.today^$important
+@@||voicewave.xyz^$important
 
 ## Software, Browser & Entwickler-Tools
 @@||a.playa.to^$important
 @@||activation.easeus.com^$important
 @@||android.com^$important
 @@||api.honeycomb.io^$important
-@@||api.passport-photo.online^$important
 @@||api.sae.systems^$important
 @@||api.twilio.com^$important
 @@||autoupdate.geo.opera.com^$important
@@ -806,7 +805,6 @@
 @@||buhl.de^$important
 @@||ciscobinary.openh264.org^$important
 @@||cloudmatic.de^$important
-@@||demo.terminkalender.top^$important
 @@||dlmping2.adobe.com^$important
 @@||download.fenstersupdate.com^$important
 @@||entwickler.api.autodesk.com^$important
@@ -848,6 +846,8 @@
 @@||www.tkqlhce.com^$important
 @@||xiaomi.net^$important
 @@||www.openoffice.de^$important
+@@||passport-photo.online^$important
+@@||terminkalender.top^$important
 
 ## Versorger, Mobilfunk & Lokales
 @@||e-dis-netz.de^$important
